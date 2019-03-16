@@ -1,0 +1,38 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U selection%b		selection.adb		5fb7259d NE OO PK
+
+U selection%s		selection.ads		d18c3ad5 EE NE OO PK
+
+D selection.ads		20190316144854 d18c3ad5 selection%s
+D selection.adb		20190316150333 8e3b1f48 selection%b
+D system.ads		20190227221103 4635ec04 system%s
+X 1 selection.ads
+1K9*Selection 15l5 15e14 2|1b14 29l5 29t14
+2A9*Arr(integer)<integer> 4r25 10r30 2|2r30
+5i15 I{integer} 5r47 5r55
+10U14*Sort 10=19 2|2b14 28l8 28t12
+10a19 A{2A9} 12r15 13r8 14r23 2|2b19 6r16 6r27 7r51 8r49 8r69 8r77 9r46 9r62
+. 9r70 13r24 14r63 14r73 15r48 17r16 17r23 23r21 24m13 24r23 25m13
+X 2 selection.adb
+3i7 Min{integer} 11m10 14r65 15r36 17r25 18m16 22r13 23r23 24r15
+4i7 Temp{integer} 23m13 25r21
+6i11 J{integer} 7r46 8r60 9r57 11r17 13r19 14r49 15r43 22r20 24r25 25r15
+7i41 K{integer} 8r79
+8i44 L{integer} 8r71
+9i41 M{integer} 9r64 9r72
+13i14 I{integer} 14r54 17r18 18r23
+14i44 K{integer} 14r75
+

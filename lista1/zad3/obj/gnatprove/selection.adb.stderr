@@ -1,0 +1,1 @@
+selection.ads:14:16: medium: postcondition might fail, cannot prove Sorted(A) (e.g. when A = (-1 => 1, -2 => 0, -3 => 1, 0 => 1, others => -3) and A'First = -3 and A'Last = 0)[#0]
