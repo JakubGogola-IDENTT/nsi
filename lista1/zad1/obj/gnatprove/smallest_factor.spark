@@ -1,0 +1,812 @@
+{
+  "spark": [
+    {
+      "name": "Smallest_Factor",
+      "sloc": [
+        {
+          "file": "smallest_factor.adb",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "smallest_factor.adb",
+      "line": 1,
+      "col": 49,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__25.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 7,
+      "col": 26,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__26.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 14,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__27.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 15,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__28.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 16,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__29.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 19,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__30.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 13,
+      "col": 45,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__31.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 13,
+      "col": 45,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__32.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 22,
+      "col": 6,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "smallest_factor__flow__33.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "smallest_factor.adb",
+      "line": 19,
+      "col": 27,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 19,
+      "check_col": 27,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 15,
+      "col": 29,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 87,
+              "time": 4.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 15,
+      "check_col": 29,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 3.99999991059303E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 15,
+      "col": 63,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 15,
+      "check_col": 63,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 5,
+      "col": 13,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 120,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 678,
+              "time": 8.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 33,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 5,
+      "check_col": 13,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 7.99999982118607E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 15,
+      "col": 29,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 15,
+      "check_col": 29,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 22,
+      "col": 11,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 27,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 22,
+      "check_col": 11,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 16,
+      "col": 12,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 16,
+      "check_col": 12,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 14,
+      "col": 29,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 14,
+      "check_col": 29,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 14,
+      "col": 29,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 14,
+      "check_col": 29,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 22,
+      "col": 11,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 476,
+              "time": 6.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 22,
+      "check_col": 11,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.99999986588955E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 7,
+      "col": 10,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 28,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 7,
+      "check_col": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 6,
+      "col": 10,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 28,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 6,
+      "check_col": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "smallest_factor.adb",
+      "line": 8,
+      "col": 42,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Smallest_Factor",
+        "sloc": [
+          {
+            "file": "smallest_factor.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "smallest_factor.adb",
+      "check_line": 8,
+      "check_col": 42,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Smallest_Factor",
+          "sloc": [
+            {
+              "file": "smallest_factor.adb",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Smallest_Factor",
+          "sloc": [
+            {
+              "file": "smallest_factor.adb",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Smallest_Factor",
+          "sloc": [
+            {
+              "file": "smallest_factor.adb",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 1.20999997307081E-04,
+    "globals (basic)": 3.50000009348150E-05,
+    "globals/properties (advanced)": 7.35000008717179E-04,
+    "flow analysis": 1.80700002238154E-03,
+    "codepeer results": 3.00000010611257E-06,
+    "init_why_sections": 5.01999980770051E-04,
+    "translation of standard": 3.21529991924763E-02,
+    "translation of compilation unit": 3.65100009366870E-03,
+    "proof": 1.94109201431274E+00
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad1/zad1.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad1/src/zad1.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 2" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad1/zad1.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad1/src/factor.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
