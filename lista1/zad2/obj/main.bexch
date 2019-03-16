@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/jakub/Dokumenty/NSI/lista1/zad2/zad2.gpr
+20190316095719
+[BOUND OBJECT FILES]
+/home/jakub/Dokumenty/NSI/lista1/zad2/obj/poly.o
+/home/jakub/Dokumenty/NSI/lista1/zad2/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/jakub/Dokumenty/NSI/lista1/zad2/obj/
+-L/home/jakub/Dokumenty/NSI/lista1/zad2/obj/
+-L/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/
+-static
+-static-libgcc
+/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/libgnat.a
+-ldl

@@ -1,0 +1,7 @@
+20190316104700
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=/home/jakub/Dokumenty/NSI/lista1/zad2/obj/gnatprove/6770fff3.tmp

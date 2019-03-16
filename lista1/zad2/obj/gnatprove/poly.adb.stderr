@@ -1,0 +1,2 @@
+poly.adb:8:27: medium: overflow check might fail (e.g. when Result = -2 and X = 2)[#1]
+poly.adb:8:31: medium: overflow check might fail[#0]
