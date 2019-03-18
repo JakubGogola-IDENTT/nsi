@@ -4,9 +4,7 @@ package body Selection with SPARK_Mode is
       Temp : Integer;
    begin
       for J in A'First .. A'Last - 1 loop
-         pragma Loop_Invariant (for all K in J .. A'Last - 1 => 
-                                  (for all L in A'First .. J - 1 => A(L) <= A(K)));
-
+        
          Min := J;
          
          for I in J .. A'Last loop
@@ -23,6 +21,8 @@ package body Selection with SPARK_Mode is
             A(Min) := A(J);
             A(J) := Temp;
          end if;
+         pragma Loop_Invariant (for all K in A'First .. J =>
+                                  (for all L in K + 1 .. A'Last => A(K) <= A(L)));
       end loop;
    end Sort;
 end Selection;

@@ -13,30 +13,30 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U selection%b		selection.adb		3770bd10 OO PK
+U selection%b		selection.adb		2ac5c7a3 OO PK
 
 U selection%s		selection.ads		d18c3ad5 OO PK
 
-D selection.ads		20190316144854 d18c3ad5 selection%s
-D selection.adb		20190316154313 e6fc87c5 selection%b
+D selection.ads		20190318211131 d18c3ad5 selection%s
+D selection.adb		20190318230435 fb49fd76 selection%b
 D system.ads		20190227221159 4635ec04 system%s
 X 1 selection.ads
-1K9*Selection 15l5 15e14 2|1b14 28l5 28t14
+1K9*Selection 15l5 15e14 2|1b14 31l5 31t14
 2A9*Arr(integer)<integer> 4r25 10r30 2|2r30
 4V13*Sorted{boolean} 4>21 14s16
 4a21 A{2A9} 5r20 5r31 5r45 5r53 8r17
 5i15 I{integer} 5r47 5r55
-10U14*Sort 10=19 2|2b14 27l8 27t12
-10a19 A{2A9} 12r15 13r8 14r23 2|2b19 6r16 6r27 7r51 8r49 8r69 8r77 12r24
-. 13r63 13r73 14r48 16r16 16r23 22r21 23m13 23r23 24m13
+10U14*Sort 10=19 2|2b14 30l8 30t12
+10a19 A{2A9} 12r15 13r8 14r23 2|2b19 6r16 6r27 13r24 14r63 14r73 15r48 17r16
+. 17r23 23r21 24m13 24r23 25m13 27r46 28r58 28r68 28r76
 X 2 selection.adb
-3i7 Min{integer} 10m10 13r65 14r36 16r25 17m16 21r13 22r23 23r15
-4i7 Temp{integer} 22m13 24r21
-6i11 J{integer} 7r46 8r60 10r17 12r19 13r49 14r43 21r20 23r25 24r15
-7i41 K{integer} 8r79
-8i44 L{integer} 8r71
-12i14 I{integer} 13r54 16r18 17r23
-13i44 K{integer} 13r75
+3i7 Min{integer} 11m10 14r65 15r36 17r25 18m16 22r13 23r23 24r15
+4i7 Temp{integer} 23m13 25r21
+6i11 J{integer} 11r17 13r19 14r49 15r43 22r20 24r25 25r15 27r57
+13i14 I{integer} 14r54 17r18 18r23
+14i44 K{integer} 14r75
+27i41 K{integer} 28r49 28r70
+28i44 L{integer} 28r78
 
 QQ SPARKVERSION 2018 (20180524)
 GG EK_DIRECT_CALLS selection__sorted 0

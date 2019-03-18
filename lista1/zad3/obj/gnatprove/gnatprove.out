@@ -8,18 +8,16 @@ Data Dependencies                 .          .          .          .            
 Flow Dependencies                 .          .          .          .            .           .          .
 Initialization                    7          7          .          .            .           .          .
 Non-Aliasing                      .          .          .          .            .           .          .
-Run-time Checks                  17          .          .          .    17 (CVC4)           .          .
+Run-time Checks                  16          .          .          .    16 (CVC4)           .          .
 Assertions                        6          .          .          .     6 (CVC4)           .          .
-Functional Contracts              2          .          .          .     1 (CVC4)           .          1
+Functional Contracts              2          .          .          .     2 (CVC4)           .          .
 LSP Verification                  .          .          .          .            .           .          .
 --------------------------------------------------------------------------------------------------------
-Total                            32    7 (22%)          .          .     24 (75%)           .     1 (3%)
+Total                            31    7 (23%)          .          .     24 (77%)           .          .
 
 
-Analyzed 2 units
-in unit main, 0 subprograms and packages out of 1 analyzed
-  Main at main.adb:7 skipped
+Analyzed 1 unit
 in unit selection, 3 subprograms and packages out of 3 analyzed
   Selection at selection.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Selection.Sort at selection.ads:10 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 20 checks out of 21 proved
+  Selection.Sort at selection.ads:10 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (20 checks)
   Selection.Sorted at selection.ads:4 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (4 checks)
