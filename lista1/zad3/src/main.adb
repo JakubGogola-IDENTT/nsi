@@ -11,7 +11,7 @@ begin
 
    Sort(A);
 
-   for I in A'First .. A'Last loop
+   for I in A'Range loop
       Put(A(I));
    end loop;
 end Main;

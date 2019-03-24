@@ -1,93 +1,13 @@
 <?xml version="1.0"?>
 <Locations >
   <Project >
-    <file_marker column=" 17" line=" 15" >
+    <file_marker column=" 1" line=" 3" >
       <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
       <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 37" line=" 14" >
+    <file_marker current="true" column=" 19" line=" 17" >
       <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
       <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 18" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 10" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 84" line=" 8" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 84" line=" 8" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 15" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 1" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 29" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 29" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 21" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 12" line=" 20" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 16" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 16" line=" 14" >
-      <vfs_project>/home/jakub/Dokumenty/NSI/lista1/zad3/zad3.gpr</vfs_project>
-      <vfs_file>/home/jakub/Dokumenty/NSI/lista1/zad3/src/selection.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>

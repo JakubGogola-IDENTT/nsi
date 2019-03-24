@@ -34,7 +34,7 @@
   "flow": [
     {
       "file": "selection.adb",
-      "line": 14,
+      "line": 11,
       "col": 13,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -54,7 +54,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 15,
+      "line": 12,
       "col": 13,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -74,7 +74,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 17,
+      "line": 14,
       "col": 13,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -94,7 +94,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 22,
+      "line": 19,
       "col": 10,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -114,7 +114,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 23,
+      "line": 20,
       "col": 18,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -134,7 +134,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 24,
+      "line": 21,
       "col": 20,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -154,7 +154,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 25,
+      "line": 22,
       "col": 18,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -216,7 +216,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 14,
+      "line": 11,
       "col": 75,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -276,7 +276,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 14,
+      "check_line": 11,
       "check_col": 75,
       "how_proved": "prover",
       "stats": {
@@ -289,7 +289,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 25,
+      "line": 22,
       "col": 15,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -349,7 +349,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 25,
+      "check_line": 22,
       "check_col": 15,
       "how_proved": "prover",
       "stats": {
@@ -362,7 +362,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 24,
+      "line": 21,
       "col": 15,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -453,7 +453,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 24,
+      "check_line": 21,
       "check_col": 15,
       "how_proved": "prover",
       "stats": {
@@ -466,7 +466,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 24,
+      "line": 21,
       "col": 25,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -641,7 +641,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 24,
+      "check_line": 21,
       "check_col": 25,
       "how_proved": "prover",
       "stats": {
@@ -654,7 +654,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 27,
+      "line": 24,
       "col": 33,
       "rule": "VC_LOOP_INVARIANT_PRESERV",
       "severity": "info",
@@ -673,7 +673,7 @@
             "CVC4": {
               "result": "Valid",
               "steps": 6058,
-              "time": 4.20000000000000E-01
+              "time": 0
             }
           },
           "transformations": {
@@ -899,20 +899,20 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 27,
+      "check_line": 24,
       "check_col": 33,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
           "count": 1,
           "max_steps": 1,
-          "max_time": 4.19999986886978E-01
+          "max_time": 0.00000000000000E+00
         }
       }
     },
     {
       "file": "selection.adb",
-      "line": 23,
+      "line": 20,
       "col": 23,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -972,7 +972,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 23,
+      "check_line": 20,
       "check_col": 23,
       "how_proved": "prover",
       "stats": {
@@ -985,7 +985,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 27,
+      "line": 24,
       "col": 33,
       "rule": "VC_LOOP_INVARIANT_INIT",
       "severity": "info",
@@ -1012,7 +1012,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 27,
+      "check_line": 24,
       "check_col": 33,
       "how_proved": "prover",
       "stats": {
@@ -1025,7 +1025,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 28,
+      "line": 25,
       "col": 51,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
@@ -1052,7 +1052,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 28,
+      "check_line": 25,
       "check_col": 51,
       "how_proved": "prover",
       "stats": {
@@ -1065,7 +1065,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 28,
+      "line": 25,
       "col": 70,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -1103,7 +1103,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 28,
+      "check_line": 25,
       "check_col": 70,
       "how_proved": "prover",
       "stats": {
@@ -1116,7 +1116,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 14,
+      "line": 11,
       "col": 65,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -1291,7 +1291,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 14,
+      "check_line": 11,
       "check_col": 65,
       "how_proved": "prover",
       "stats": {
@@ -1304,7 +1304,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 14,
+      "line": 11,
       "col": 56,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
@@ -1423,7 +1423,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 14,
+      "check_line": 11,
       "check_col": 56,
       "how_proved": "prover",
       "stats": {
@@ -1436,7 +1436,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 14,
+      "line": 11,
       "col": 36,
       "rule": "VC_LOOP_INVARIANT_PRESERV",
       "severity": "info",
@@ -1474,7 +1474,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 14,
+      "check_line": 11,
       "check_col": 36,
       "how_proved": "prover",
       "stats": {
@@ -1487,7 +1487,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 14,
+      "line": 11,
       "col": 36,
       "rule": "VC_LOOP_INVARIANT_INIT",
       "severity": "info",
@@ -1568,7 +1568,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 14,
+      "check_line": 11,
       "check_col": 36,
       "how_proved": "prover",
       "stats": {
@@ -1581,7 +1581,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 28,
+      "line": 25,
       "col": 78,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -1619,7 +1619,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 28,
+      "check_line": 25,
       "check_col": 78,
       "how_proved": "prover",
       "stats": {
@@ -1683,7 +1683,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 15,
+      "line": 12,
       "col": 36,
       "rule": "VC_LOOP_INVARIANT_PRESERV",
       "severity": "info",
@@ -1743,7 +1743,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 15,
+      "check_line": 12,
       "check_col": 36,
       "how_proved": "prover",
       "stats": {
@@ -1756,7 +1756,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 17,
+      "line": 14,
       "col": 25,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -1816,7 +1816,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 17,
+      "check_line": 14,
       "check_col": 25,
       "how_proved": "prover",
       "stats": {
@@ -1869,7 +1869,7 @@
     },
     {
       "file": "selection.adb",
-      "line": 15,
+      "line": 12,
       "col": 36,
       "rule": "VC_LOOP_INVARIANT_INIT",
       "severity": "info",
@@ -1929,7 +1929,7 @@
         }
       ],
       "check_file": "selection.adb",
-      "check_line": 15,
+      "check_line": 12,
       "check_col": 36,
       "how_proved": "prover",
       "stats": {
@@ -2435,14 +2435,14 @@
     }
   ],
   "timings": {
-    "marking": 2.87000002572313E-04,
-    "globals (basic)": 4.89999983983580E-05,
-    "globals/properties (advanced)": 2.50000011874363E-04,
-    "flow analysis": 2.80999997630715E-03,
-    "codepeer results": 4.99999987368938E-06,
+    "marking": 2.16999993426725E-04,
+    "globals (basic)": 4.09999993280508E-05,
+    "globals/properties (advanced)": 2.43000002228655E-04,
+    "flow analysis": 2.88800010457635E-03,
+    "codepeer results": 6.00000021222513E-06,
     "init_why_sections": 1.88000005437061E-04,
-    "translation of standard": 3.03500005975366E-03,
-    "translation of compilation unit": 5.41399978101254E-03,
-    "proof": 3.42588901519775E+00
+    "translation of standard": 3.00100003369153E-03,
+    "translation of compilation unit": 5.26800006628036E-03,
+    "proof": 1.35894203186035E+00
   }
 }

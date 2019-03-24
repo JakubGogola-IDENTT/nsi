@@ -2036,7 +2036,7 @@ module Selection__sort__L_1__T2b
 
 end
 
-(* Module for axiomatizing type "T3b" defined at selection.adb:13, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T3b" defined at selection.adb:10, created in Gnat2Why.Types.Translate_Type *)
 module Selection__sort__L_2__T3b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2074,7 +2074,7 @@ module Selection__sort__L_2__T3b
 
 end
 
-(* Module for axiomatizing type "T7b" defined at selection.adb:14, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T7b" defined at selection.adb:11, created in Gnat2Why.Types.Translate_Type *)
 module Selection__sort__L_2__L6b__T7b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2112,7 +2112,7 @@ module Selection__sort__L_2__L6b__T7b
 
 end
 
-(* Module for axiomatizing type "T5b" defined at selection.adb:14, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T5b" defined at selection.adb:11, created in Gnat2Why.Types.Translate_Type *)
 module Selection__sort__L_2__L4b__T5b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2150,7 +2150,7 @@ module Selection__sort__L_2__L4b__T5b
 
 end
 
-(* Module for axiomatizing type "T13b" defined at selection.adb:27, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T13b" defined at selection.adb:24, created in Gnat2Why.Types.Translate_Type *)
 module Selection__sort__L_1__L12b__T13b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2188,7 +2188,7 @@ module Selection__sort__L_1__L12b__T13b
 
 end
 
-(* Module for axiomatizing type "T9b" defined at selection.adb:27, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T9b" defined at selection.adb:24, created in Gnat2Why.Types.Translate_Type *)
 module Selection__sort__L_1__L8b__T9b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2226,7 +2226,7 @@ module Selection__sort__L_1__L8b__T9b
 
 end
 
-(* Module for axiomatizing type "T15b" defined at selection.adb:28, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T15b" defined at selection.adb:25, created in Gnat2Why.Types.Translate_Type *)
 module Selection__sort__L_1__L12b__L14b__T15b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2264,7 +2264,7 @@ module Selection__sort__L_1__L12b__L14b__T15b
 
 end
 
-(* Module for axiomatizing type "T11b" defined at selection.adb:28, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T11b" defined at selection.adb:25, created in Gnat2Why.Types.Translate_Type *)
 module Selection__sort__L_1__L8b__L10b__T11b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2381,18 +2381,18 @@ module Selection__sort__L_1__j___axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "i" defined at selection.adb:13, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "i" defined at selection.adb:10, created in Gnat2Why.Decls.Translate_Variable *)
 module Selection__sort__L_2__i
  use import "_gnatprove_standard".Main
 
- val i #"selection.adb" 13 0 0#"model_projected" "model_trace:2370" "name:I"  : int__ref 
+ val i #"selection.adb" 10 0 0#"model_projected" "model_trace:2370" "name:I"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "i" defined at selection.adb:13, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "i" defined at selection.adb:10, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Selection__sort__L_2__i___axiom
  use import "_gnatprove_standard".Main
 
@@ -2783,7 +2783,7 @@ module Selection__sort__L_1___axiom
 
 end
 
-(* Module for defining the loop exit exception for the loop "L_2" defined at selection.adb:13, created in Gnat2Why.Decls.Translate_Loop_Entity *)
+(* Module for defining the loop exit exception for the loop "L_2" defined at selection.adb:10, created in Gnat2Why.Decls.Translate_Loop_Entity *)
 module Selection__sort__L_2
  use import "_gnatprove_standard".Main
 
@@ -2791,7 +2791,7 @@ module Selection__sort__L_2
 
 end
 
-(* Module giving an empty axiom for the entity "L_2" defined at selection.adb:13, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "L_2" defined at selection.adb:10, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Selection__sort__L_2___axiom
  use import "_gnatprove_standard".Main
 
@@ -2859,49 +2859,49 @@ module Selection__sort__L_1__T2b___axiom
 
 end
 
-(* Module giving axioms for type "T3b" defined at selection.adb:13, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T3b" defined at selection.adb:10, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Selection__sort__L_2__T3b___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "T7b" defined at selection.adb:14, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T7b" defined at selection.adb:11, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Selection__sort__L_2__L6b__T7b___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "T5b" defined at selection.adb:14, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T5b" defined at selection.adb:11, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Selection__sort__L_2__L4b__T5b___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "T13b" defined at selection.adb:27, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T13b" defined at selection.adb:24, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Selection__sort__L_1__L12b__T13b___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "T9b" defined at selection.adb:27, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T9b" defined at selection.adb:24, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Selection__sort__L_1__L8b__T9b___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "T15b" defined at selection.adb:28, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T15b" defined at selection.adb:25, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Selection__sort__L_1__L12b__L14b__T15b___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "T11b" defined at selection.adb:28, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T11b" defined at selection.adb:25, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Selection__sort__L_1__L8b__L10b__T11b___axiom
  use import "_gnatprove_standard".Main
 
@@ -2989,7 +2989,7 @@ module Selection__package_def
   (#"selection.ads" 4 0 0# ());
   (#"selection.adb" 1 0 0# ());
   (#"selection.adb" 2 0 0# ());
-  ( "GP_Sloc:selection.adb:31:1" (#"selection.adb" 31 0 0# ()) ) )
+  ( "GP_Sloc:selection.adb:28:1" (#"selection.adb" 28 0 0# ()) ) )
 end
 
 (* Module for checking contracts and absence of run-time errors in subprogram "sorted" defined at selection.ads:4, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
@@ -3162,7 +3162,7 @@ module Selection__sort__subprogram_def
     end ;
    #"selection.adb" 4 0 0# assume { #"selection.adb" 4 0 0# (Standard__integer___axiom.default_initial_assumption Selection__sort__temp.temp.int__content False) };
    #"selection.adb" 4 0 0# assume { #"selection.adb" 4 0 0# (Standard__integer___axiom.dynamic_invariant Selection__sort__temp.temp.int__content False False True True) } ));
-   (#"selection.adb" 13 0 0# ());
+   (#"selection.adb" 10 0 0# ());
    (#"selection.adb" 6 0 0# ());
    ( "GP_Sloc:selection.adb:6:38" (#"selection.adb" 6 0 0# (let temp___179 = (Standard__integer__rep.to_rep(( #"selection.adb" 6 0 0# abstract ensures {true}(let _ = Selection__sort__a.a.Array__Int__Standard__integer.map__content in (
     ()))
@@ -3204,58 +3204,58 @@ module Selection__sort__subprogram_def
          ) in (
           ( () (* First unroling of the loop statements appearing before the loop invariant of loop selection.adb:6 *)
           ;
-          ( "GP_Sloc:selection.adb:11:10" (#"selection.adb" 11 0 0# ()) );
-          ( "GP_Sloc:selection.adb:11:14" (#"selection.adb" 11 0 0# #"selection.adb" 11 0 0# Selection__sort__min.min.int__content <- ( Selection__sort__L_1__j.j.int__content )) );
-          ( "GP_Sloc:selection.adb:13:31" (#"selection.adb" 13 0 0# (let temp___181 = Selection__sort__L_1__j.j.int__content in (
-          (let temp___182 = (Standard__integer__rep.to_rep(( #"selection.adb" 13 0 0# abstract ensures {true}(let _ = Selection__sort__a.a.Array__Int__Standard__integer.map__content in (
+          ( "GP_Sloc:selection.adb:8:10" (#"selection.adb" 8 0 0# ()) );
+          ( "GP_Sloc:selection.adb:8:14" (#"selection.adb" 8 0 0# #"selection.adb" 8 0 0# Selection__sort__min.min.int__content <- ( Selection__sort__L_1__j.j.int__content )) );
+          ( "GP_Sloc:selection.adb:10:31" (#"selection.adb" 10 0 0# (let temp___181 = Selection__sort__L_1__j.j.int__content in (
+          (let temp___182 = (Standard__integer__rep.to_rep(( #"selection.adb" 10 0 0# abstract ensures {true}(let _ = Selection__sort__a.a.Array__Int__Standard__integer.map__content in (
            ()))
            end ;
           Selection__sort__a.a__last ))) in (
-           ( #"selection.adb" 13 0 0# Selection__sort__L_2__i.i.int__content <- ( temp___181 );
-           () (* Translation of an Ada loop from selection.adb:13 *)
+           ( #"selection.adb" 10 0 0# Selection__sort__L_2__i.i.int__content <- ( temp___181 );
+           () (* Translation of an Ada loop from selection.adb:10 *)
            ;
            (if ((Boolean.andb((temp___181 <= Selection__sort__L_2__i.i.int__content)) ((Selection__sort__L_2__i.i.int__content <= temp___182)))) then (
-            #"selection.adb" 13 0 0# try
-             ( #"selection.adb" 13 0 0# abstract ensures {true}(let _ = Selection__sort__min.min.int__content in (
+            #"selection.adb" 10 0 0# try
+             ( #"selection.adb" 10 0 0# abstract ensures {true}(let _ = Selection__sort__min.min.int__content in (
               ()))
               end ;
-             (let temp___184 = #"selection.adb" 13 0 0# (any int
-             ensures {#"selection.adb" 13 0 0# (result = Selection__sort__min.min.int__content)} 
+             (let temp___184 = #"selection.adb" 10 0 0# (any int
+             ensures {#"selection.adb" 10 0 0# (result = Selection__sort__min.min.int__content)} 
              ) in (
-              ( #"selection.adb" 13 0 0# abstract ensures {true}(let _ = Selection__sort__L_2__i.i.int__content in (
+              ( #"selection.adb" 10 0 0# abstract ensures {true}(let _ = Selection__sort__L_2__i.i.int__content in (
                ()))
                end ;
-              (let temp___183 = #"selection.adb" 13 0 0# (any int
-              ensures {#"selection.adb" 13 0 0# (result = Selection__sort__L_2__i.i.int__content)} 
+              (let temp___183 = #"selection.adb" 10 0 0# (any int
+              ensures {#"selection.adb" 10 0 0# (result = Selection__sort__L_2__i.i.int__content)} 
               ) in (
-               ( () (* First unroling of the loop statements appearing before the loop invariant of loop selection.adb:13 *)
+               ( () (* First unroling of the loop statements appearing before the loop invariant of loop selection.adb:10 *)
                ;
-               () (* While loop translating the Ada loop from selection.adb:13 *)
+               () (* While loop translating the Ada loop from selection.adb:10 *)
                ;
-               #"selection.adb" 13 0 0# while True do
+               #"selection.adb" 10 0 0# while True do
                 invariant { 
-                 (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:selection.adb:14:36" "GP_Reason:VC_LOOP_INVARIANT" "GP_Id:8" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
-                                   ^ selection.adb:14:36:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__L_2_while__pragargs__forall" (forall k #"selection.adb" 14 0 0#  "model" "model_trace:2389" "name:K"  : int.
-                  ( ( (Selection__sort__L_1__j.j.int__content <= k) /\ (k <= (Selection__sort__L_2__i.i.int__content - 1)) ) -> ( "GP_Pretty_Ada:2406" "GP_Sloc:selection.adb:14:63" ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content Selection__sort__min.min.int__content)) <= (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content k))) ) )) ))
+                 (#"selection.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:selection.adb:11:36" "GP_Reason:VC_LOOP_INVARIANT" "GP_Id:8" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
+                                   ^ selection.adb:11:36:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__L_2_while__pragargs__forall" (forall k #"selection.adb" 11 0 0#  "model" "model_trace:2389" "name:K"  : int.
+                  ( ( (Selection__sort__L_1__j.j.int__content <= k) /\ (k <= (Selection__sort__L_2__i.i.int__content - 1)) ) -> ( "GP_Pretty_Ada:2406" "GP_Sloc:selection.adb:11:63" ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content Selection__sort__min.min.int__content)) <= (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content k))) ) )) ))
                  }
                 invariant { 
-                 (#"selection.adb" 15 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_INVARIANT" "GP_Sloc:selection.adb:15:36" "GP_Id:9" "comment:            pragma Loop_Invariant (Min in J .. A'Last);
-                                   ^ selection.adb:15:36:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__L_2_while__pragargs__in" ( "GP_Pretty_Ada:2414" "GP_Sloc:selection.adb:15:36" ( (Selection__sort__L_1__j.j.int__content <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) ) ))
+                 (#"selection.adb" 12 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_INVARIANT" "GP_Sloc:selection.adb:12:36" "GP_Id:9" "comment:            pragma Loop_Invariant (Min in J .. A'Last);
+                                   ^ selection.adb:12:36:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__L_2_while__pragargs__in" ( "GP_Pretty_Ada:2414" "GP_Sloc:selection.adb:12:36" ( (Selection__sort__L_1__j.j.int__content <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) ) ))
                  }
-                ( () (* Assume implicit invariants from the loop selection.adb:13 *)
+                ( () (* Assume implicit invariants from the loop selection.adb:10 *)
                 ;
                  assume {  (Boolean.andb(( ( ( ( true /\ (if ((Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last))) then (
                  (Selection__sort__L_2__T3b.dynamic_property Selection__sort__L_1__j.j.int__content (Standard__integer__rep.to_rep Selection__sort__a.a__last) Selection__sort__L_2__i.i.int__content)) else true) ) /\ true ) /\ (Standard__integer___axiom.dynamic_invariant Selection__sort__min.min.int__content False True True True) ) /\ true )) (( (Selection__sort__L_1__j.j.int__content <= Selection__sort__L_2__i.i.int__content) /\ (Selection__sort__L_2__i.i.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ))) };
-                () (* Check for absence of RTE in the invariant of loop selection.adb:13 *)
+                () (* Check for absence of RTE in the invariant of loop selection.adb:10 *)
                 ;
                  abstract ensures {true}(let _ = ( (let k =  (any int
                 ) in (
-                 (if ((Boolean.andb((Selection__sort__L_1__j.j.int__content <= k)) ((k <= (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:selection.adb:14:56" "GP_Id:5" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
-                                                       ^ selection.adb:14:56:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__range__sub" (Standard__integer.range_check_((Selection__sort__L_2__i.i.int__content - 1))) )))))) then (
-                   abstract ensures {true}(let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:14:65" "GP_Id:6" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
-                                                                ^ selection.adb:14:65:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
-                  Selection__sort__min.min.int__content ))))) <= (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__cmp__ixdcomp" "GP_Sloc:selection.adb:14:75" "GP_Id:7" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
-                                                                          ^ selection.adb:14:75:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= k) /\ (k <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+                 (if ((Boolean.andb((Selection__sort__L_1__j.j.int__content <= k)) ((k <= (#"selection.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:selection.adb:11:56" "GP_Id:5" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
+                                                       ^ selection.adb:11:56:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__range__sub" (Standard__integer.range_check_((Selection__sort__L_2__i.i.int__content - 1))) )))))) then (
+                   abstract ensures {true}(let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:11:65" "GP_Id:6" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
+                                                                ^ selection.adb:11:65:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+                  Selection__sort__min.min.int__content ))))) <= (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__cmp__ixdcomp" "GP_Sloc:selection.adb:11:75" "GP_Id:7" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
+                                                                          ^ selection.adb:11:75:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= k) /\ (k <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
                   k )))))) in (
                    ()))
                    end ))))
@@ -3273,16 +3273,16 @@ module Selection__sort__subprogram_def
                 Selection__sort__a.a__last )))))) in (
                  ()))
                  end ;
-                () (* Loop statements appearing after the loop invariant of loop selection.adb:13 *)
+                () (* Loop statements appearing after the loop invariant of loop selection.adb:10 *)
                 ;
-                ( "GP_Sloc:selection.adb:17:25" (#"selection.adb" 17 0 0# ()) );
-                ( "GP_Sloc:selection.adb:17:13" (#"selection.adb" 17 0 0# (if (((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (Selection__sort__L_2__i.i.int__content)))) < (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 17 0 0# assert { #"selection.adb" 17 0 0# (#"selection.adb" 17 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:17:25" "GP_Id:4" "comment:            if A(I) < A(Min) then
-                        ^ selection.adb:17:25:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__if__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+                ( "GP_Sloc:selection.adb:14:25" (#"selection.adb" 14 0 0# ()) );
+                ( "GP_Sloc:selection.adb:14:13" (#"selection.adb" 14 0 0# (if (((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (Selection__sort__L_2__i.i.int__content)))) < (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 14 0 0# assert { #"selection.adb" 14 0 0# (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:14:25" "GP_Id:4" "comment:            if A(I) < A(Min) then
+                        ^ selection.adb:14:25:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__if__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
                 Selection__sort__min.min.int__content ))))))) then (
-                 ( ( "GP_Sloc:selection.adb:18:16" (#"selection.adb" 18 0 0# ()) );
-                 ( "GP_Sloc:selection.adb:18:20" (#"selection.adb" 18 0 0# #"selection.adb" 18 0 0# Selection__sort__min.min.int__content <- ( Selection__sort__L_2__i.i.int__content )) ) )) else (
+                 ( ( "GP_Sloc:selection.adb:15:16" (#"selection.adb" 15 0 0# ()) );
+                 ( "GP_Sloc:selection.adb:15:20" (#"selection.adb" 15 0 0# #"selection.adb" 15 0 0# Selection__sort__min.min.int__content <- ( Selection__sort__L_2__i.i.int__content )) ) )) else (
                  ()))) );
-                () (* Check for the exit condition and loop statements appearing before the loop invariant of loop selection.adb:13 *)
+                () (* Check for the exit condition and loop statements appearing before the loop invariant of loop selection.adb:10 *)
                 ;
                 (if ((Selection__sort__L_2__i.i.int__content = temp___182)) then (
                   raise Selection__sort__L_2.L_2));
@@ -3295,32 +3295,32 @@ module Selection__sort__subprogram_def
             end)) )))
           ))
           ) );
-          ( "GP_Sloc:selection.adb:22:13" (#"selection.adb" 22 0 0# ()) );
-          ( "GP_Sloc:selection.adb:22:10" (#"selection.adb" 22 0 0# (if ((Selection__sort__min.min.int__content <> Selection__sort__L_1__j.j.int__content)) then (
-           ( ( "GP_Sloc:selection.adb:23:13" (#"selection.adb" 23 0 0# ()) );
-           ( "GP_Sloc:selection.adb:23:23" (#"selection.adb" 23 0 0# ()) );
-           ( "GP_Sloc:selection.adb:23:18" (#"selection.adb" 23 0 0# #"selection.adb" 23 0 0# Selection__sort__temp.temp.int__content <- ( (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 23 0 0# assert { #"selection.adb" 23 0 0# (#"selection.adb" 23 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:23:23" "GP_Id:10" "comment:            Temp := A(Min);
-                      ^ selection.adb:23:23:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__temp_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+          ( "GP_Sloc:selection.adb:19:13" (#"selection.adb" 19 0 0# ()) );
+          ( "GP_Sloc:selection.adb:19:10" (#"selection.adb" 19 0 0# (if ((Selection__sort__min.min.int__content <> Selection__sort__L_1__j.j.int__content)) then (
+           ( ( "GP_Sloc:selection.adb:20:13" (#"selection.adb" 20 0 0# ()) );
+           ( "GP_Sloc:selection.adb:20:23" (#"selection.adb" 20 0 0# ()) );
+           ( "GP_Sloc:selection.adb:20:18" (#"selection.adb" 20 0 0# #"selection.adb" 20 0 0# Selection__sort__temp.temp.int__content <- ( (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 20 0 0# assert { #"selection.adb" 20 0 0# (#"selection.adb" 20 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:20:23" "GP_Id:10" "comment:            Temp := A(Min);
+                      ^ selection.adb:20:23:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__temp_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
            Selection__sort__min.min.int__content ))))) )) );
-           ( "GP_Sloc:selection.adb:24:15" (#"selection.adb" 24 0 0# ()) );
-           ( "GP_Sloc:selection.adb:24:20" (#"selection.adb" 24 0 0# #"selection.adb" 24 0 0# Selection__sort__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 24 0 0# assert { #"selection.adb" 24 0 0# (#"selection.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:24:15" "GP_Shape:L_1_while__if__a_assign__ixdcomp" "GP_Id:12" "comment:            A(Min) := A(J);
-              ^ selection.adb:24:15:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
-           Selection__sort__min.min.int__content )) ((Standard__integer__rep.of_rep((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:24:25" "GP_Id:11" "comment:            A(Min) := A(J);
-                        ^ selection.adb:24:25:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__a_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__L_1__j.j.int__content) /\ (Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+           ( "GP_Sloc:selection.adb:21:15" (#"selection.adb" 21 0 0# ()) );
+           ( "GP_Sloc:selection.adb:21:20" (#"selection.adb" 21 0 0# #"selection.adb" 21 0 0# Selection__sort__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 21 0 0# assert { #"selection.adb" 21 0 0# (#"selection.adb" 21 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:21:15" "GP_Shape:L_1_while__if__a_assign__ixdcomp" "GP_Id:12" "comment:            A(Min) := A(J);
+              ^ selection.adb:21:15:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+           Selection__sort__min.min.int__content )) ((Standard__integer__rep.of_rep((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 21 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:21:25" "GP_Id:11" "comment:            A(Min) := A(J);
+                        ^ selection.adb:21:25:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__a_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__L_1__j.j.int__content) /\ (Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
            Selection__sort__L_1__j.j.int__content ))))))))) )) );
-           ( "GP_Sloc:selection.adb:25:21" (#"selection.adb" 25 0 0# ()) );
-           ( "GP_Sloc:selection.adb:25:18" (#"selection.adb" 25 0 0# #"selection.adb" 25 0 0# Selection__sort__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 25 0 0# assert { #"selection.adb" 25 0 0# (#"selection.adb" 25 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__a_assign__ixdcomp" "GP_Sloc:selection.adb:25:15" "GP_Id:13" "comment:            A(J) := Temp;
-              ^ selection.adb:25:15:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__L_1__j.j.int__content) /\ (Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+           ( "GP_Sloc:selection.adb:22:21" (#"selection.adb" 22 0 0# ()) );
+           ( "GP_Sloc:selection.adb:22:18" (#"selection.adb" 22 0 0# #"selection.adb" 22 0 0# Selection__sort__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 22 0 0# assert { #"selection.adb" 22 0 0# (#"selection.adb" 22 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__a_assign__ixdcomp" "GP_Sloc:selection.adb:22:15" "GP_Id:13" "comment:            A(J) := Temp;
+              ^ selection.adb:22:15:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__L_1__j.j.int__content) /\ (Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
            Selection__sort__L_1__j.j.int__content )) ((Standard__integer__rep.of_rep(Selection__sort__temp.temp.int__content)))) )) ) )) else (
            ()))) );
           () (* While loop translating the Ada loop from selection.adb:6 *)
           ;
            while True do
            invariant { 
-            (#"selection.adb" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_INVARIANT" "GP_Sloc:selection.adb:27:33" "GP_Id:17" "comment:         pragma Loop_Invariant (for all K in A'First .. J =>
-                                ^ selection.adb:27:33:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__pragargs__forall" (forall k #"selection.adb" 27 0 0#  "model" "name:K" "model_trace:2456"  : int.
-             ( ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= k) /\ (k <= Selection__sort__L_1__j.j.int__content) ) -> (forall l #"selection.adb" 27 0 0#  "model" "model_trace:2470" "name:L"  : int.
-              ( ( ((k + 1) <= l) /\ (l <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) -> ( "GP_Pretty_Ada:2489" "GP_Sloc:selection.adb:28:68" ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content k)) <= (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content l))) ) )) )) ))
+            (#"selection.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_INVARIANT" "GP_Sloc:selection.adb:24:33" "GP_Id:17" "comment:         pragma Loop_Invariant (for all K in A'First .. J =>
+                                ^ selection.adb:24:33:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__pragargs__forall" (forall k #"selection.adb" 24 0 0#  "model" "name:K" "model_trace:2456"  : int.
+             ( ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= k) /\ (k <= Selection__sort__L_1__j.j.int__content) ) -> (forall l #"selection.adb" 24 0 0#  "model" "model_trace:2470" "name:L"  : int.
+              ( ( ((k + 1) <= l) /\ (l <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) -> ( "GP_Pretty_Ada:2489" "GP_Sloc:selection.adb:25:68" ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content k)) <= (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content l))) ) )) )) ))
             }
            ( () (* Assume implicit invariants from the loop selection.adb:6 *)
            ;
@@ -3342,15 +3342,15 @@ module Selection__sort__subprogram_def
             Selection__sort__a.a__first ))) <= k)) ((k <= Selection__sort__L_1__j.j.int__content)))) then (
               abstract ensures {true}(let _ = ( (let l =  (any int
              ) in (
-              (if ((Boolean.andb(((#"selection.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:selection.adb:28:51" "GP_Id:14" "comment:                                  (for all L in K + 1 .. A'Last => A(K) <= A(L)));
-                                                  ^ selection.adb:28:51:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__pragargs__forall__forall__range__add" (Standard__integer.range_check_((k + 1))) )) <= l)) ((l <= (Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Selection__sort__a.a.Array__Int__Standard__integer.map__content in (
+              (if ((Boolean.andb(((#"selection.adb" 25 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:selection.adb:25:51" "GP_Id:14" "comment:                                  (for all L in K + 1 .. A'Last => A(K) <= A(L)));
+                                                  ^ selection.adb:25:51:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__pragargs__forall__forall__range__add" (Standard__integer.range_check_((k + 1))) )) <= l)) ((l <= (Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Selection__sort__a.a.Array__Int__Standard__integer.map__content in (
                ()))
                end ;
               Selection__sort__a.a__last ))))))) then (
-                abstract ensures {true}(let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:28:70" "GP_Id:15" "comment:                                  (for all L in K + 1 .. A'Last => A(K) <= A(L)));
-                                                                     ^ selection.adb:28:70:VC_INDEX_CHECK" "GP_Shape:L_1_while__pragargs__forall__forall__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= k) /\ (k <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
-               k ))))) <= (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__pragargs__forall__forall__cmp__ixdcomp" "GP_Sloc:selection.adb:28:78" "GP_Id:16" "comment:                                  (for all L in K + 1 .. A'Last => A(K) <= A(L)));
-                                                                             ^ selection.adb:28:78:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= l) /\ (l <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+                abstract ensures {true}(let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 25 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:25:70" "GP_Id:15" "comment:                                  (for all L in K + 1 .. A'Last => A(K) <= A(L)));
+                                                                     ^ selection.adb:25:70:VC_INDEX_CHECK" "GP_Shape:L_1_while__pragargs__forall__forall__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= k) /\ (k <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+               k ))))) <= (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 25 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__pragargs__forall__forall__cmp__ixdcomp" "GP_Sloc:selection.adb:25:78" "GP_Id:16" "comment:                                  (for all L in K + 1 .. A'Last => A(K) <= A(L)));
+                                                                             ^ selection.adb:25:78:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= l) /\ (l <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
                l )))))) in (
                 ()))
                 end ))))
@@ -3378,58 +3378,58 @@ module Selection__sort__subprogram_def
            (if ((Selection__sort__L_1__j.j.int__content = temp___180)) then (
              raise Selection__sort__L_1.L_1));
             Selection__sort__L_1__j.j.int__content <- ( (Selection__sort__L_1__j.j.int__content + 1) );
-           ( "GP_Sloc:selection.adb:11:10" (#"selection.adb" 11 0 0# ()) );
-           ( "GP_Sloc:selection.adb:11:14" (#"selection.adb" 11 0 0# #"selection.adb" 11 0 0# Selection__sort__min.min.int__content <- ( Selection__sort__L_1__j.j.int__content )) );
-           ( "GP_Sloc:selection.adb:13:31" (#"selection.adb" 13 0 0# (let temp___181 = Selection__sort__L_1__j.j.int__content in (
-           (let temp___182 = (Standard__integer__rep.to_rep(( #"selection.adb" 13 0 0# abstract ensures {true}(let _ = Selection__sort__a.a.Array__Int__Standard__integer.map__content in (
+           ( "GP_Sloc:selection.adb:8:10" (#"selection.adb" 8 0 0# ()) );
+           ( "GP_Sloc:selection.adb:8:14" (#"selection.adb" 8 0 0# #"selection.adb" 8 0 0# Selection__sort__min.min.int__content <- ( Selection__sort__L_1__j.j.int__content )) );
+           ( "GP_Sloc:selection.adb:10:31" (#"selection.adb" 10 0 0# (let temp___181 = Selection__sort__L_1__j.j.int__content in (
+           (let temp___182 = (Standard__integer__rep.to_rep(( #"selection.adb" 10 0 0# abstract ensures {true}(let _ = Selection__sort__a.a.Array__Int__Standard__integer.map__content in (
             ()))
             end ;
            Selection__sort__a.a__last ))) in (
-            ( #"selection.adb" 13 0 0# Selection__sort__L_2__i.i.int__content <- ( temp___181 );
-            () (* Translation of an Ada loop from selection.adb:13 *)
+            ( #"selection.adb" 10 0 0# Selection__sort__L_2__i.i.int__content <- ( temp___181 );
+            () (* Translation of an Ada loop from selection.adb:10 *)
             ;
             (if ((Boolean.andb((temp___181 <= Selection__sort__L_2__i.i.int__content)) ((Selection__sort__L_2__i.i.int__content <= temp___182)))) then (
-             #"selection.adb" 13 0 0# try
-              ( #"selection.adb" 13 0 0# abstract ensures {true}(let _ = Selection__sort__min.min.int__content in (
+             #"selection.adb" 10 0 0# try
+              ( #"selection.adb" 10 0 0# abstract ensures {true}(let _ = Selection__sort__min.min.int__content in (
                ()))
                end ;
-              (let temp___184 = #"selection.adb" 13 0 0# (any int
-              ensures {#"selection.adb" 13 0 0# (result = Selection__sort__min.min.int__content)} 
+              (let temp___184 = #"selection.adb" 10 0 0# (any int
+              ensures {#"selection.adb" 10 0 0# (result = Selection__sort__min.min.int__content)} 
               ) in (
-               ( #"selection.adb" 13 0 0# abstract ensures {true}(let _ = Selection__sort__L_2__i.i.int__content in (
+               ( #"selection.adb" 10 0 0# abstract ensures {true}(let _ = Selection__sort__L_2__i.i.int__content in (
                 ()))
                 end ;
-               (let temp___183 = #"selection.adb" 13 0 0# (any int
-               ensures {#"selection.adb" 13 0 0# (result = Selection__sort__L_2__i.i.int__content)} 
+               (let temp___183 = #"selection.adb" 10 0 0# (any int
+               ensures {#"selection.adb" 10 0 0# (result = Selection__sort__L_2__i.i.int__content)} 
                ) in (
-                ( () (* First unroling of the loop statements appearing before the loop invariant of loop selection.adb:13 *)
+                ( () (* First unroling of the loop statements appearing before the loop invariant of loop selection.adb:10 *)
                 ;
-                () (* While loop translating the Ada loop from selection.adb:13 *)
+                () (* While loop translating the Ada loop from selection.adb:10 *)
                 ;
-                #"selection.adb" 13 0 0# while True do
+                #"selection.adb" 10 0 0# while True do
                  invariant { 
-                  (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:selection.adb:14:36" "GP_Reason:VC_LOOP_INVARIANT" "GP_Id:8" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
-                                   ^ selection.adb:14:36:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__L_2_while__pragargs__forall" (forall k #"selection.adb" 14 0 0#  "model" "model_trace:2389" "name:K"  : int.
-                   ( ( (Selection__sort__L_1__j.j.int__content <= k) /\ (k <= (Selection__sort__L_2__i.i.int__content - 1)) ) -> ( "GP_Pretty_Ada:2406" "GP_Sloc:selection.adb:14:63" ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content Selection__sort__min.min.int__content)) <= (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content k))) ) )) ))
+                  (#"selection.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:selection.adb:11:36" "GP_Reason:VC_LOOP_INVARIANT" "GP_Id:8" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
+                                   ^ selection.adb:11:36:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__L_2_while__pragargs__forall" (forall k #"selection.adb" 11 0 0#  "model" "model_trace:2389" "name:K"  : int.
+                   ( ( (Selection__sort__L_1__j.j.int__content <= k) /\ (k <= (Selection__sort__L_2__i.i.int__content - 1)) ) -> ( "GP_Pretty_Ada:2406" "GP_Sloc:selection.adb:11:63" ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content Selection__sort__min.min.int__content)) <= (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Selection__sort__a.a.Array__Int__Standard__integer.map__content k))) ) )) ))
                   }
                  invariant { 
-                  (#"selection.adb" 15 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_INVARIANT" "GP_Sloc:selection.adb:15:36" "GP_Id:9" "comment:            pragma Loop_Invariant (Min in J .. A'Last);
-                                   ^ selection.adb:15:36:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__L_2_while__pragargs__in" ( "GP_Pretty_Ada:2414" "GP_Sloc:selection.adb:15:36" ( (Selection__sort__L_1__j.j.int__content <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) ) ))
+                  (#"selection.adb" 12 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_INVARIANT" "GP_Sloc:selection.adb:12:36" "GP_Id:9" "comment:            pragma Loop_Invariant (Min in J .. A'Last);
+                                   ^ selection.adb:12:36:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__L_2_while__pragargs__in" ( "GP_Pretty_Ada:2414" "GP_Sloc:selection.adb:12:36" ( (Selection__sort__L_1__j.j.int__content <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) ) ))
                   }
-                 ( () (* Assume implicit invariants from the loop selection.adb:13 *)
+                 ( () (* Assume implicit invariants from the loop selection.adb:10 *)
                  ;
                   assume {  (Boolean.andb(( ( ( ( true /\ (if ((Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last))) then (
                   (Selection__sort__L_2__T3b.dynamic_property Selection__sort__L_1__j.j.int__content (Standard__integer__rep.to_rep Selection__sort__a.a__last) Selection__sort__L_2__i.i.int__content)) else true) ) /\ true ) /\ (Standard__integer___axiom.dynamic_invariant Selection__sort__min.min.int__content False True True True) ) /\ true )) (( (Selection__sort__L_1__j.j.int__content <= Selection__sort__L_2__i.i.int__content) /\ (Selection__sort__L_2__i.i.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ))) };
-                 () (* Check for absence of RTE in the invariant of loop selection.adb:13 *)
+                 () (* Check for absence of RTE in the invariant of loop selection.adb:10 *)
                  ;
                   abstract ensures {true}(let _ = ( (let k =  (any int
                  ) in (
-                  (if ((Boolean.andb((Selection__sort__L_1__j.j.int__content <= k)) ((k <= (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:selection.adb:14:56" "GP_Id:5" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
-                                                       ^ selection.adb:14:56:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__range__sub" (Standard__integer.range_check_((Selection__sort__L_2__i.i.int__content - 1))) )))))) then (
-                    abstract ensures {true}(let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:14:65" "GP_Id:6" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
-                                                                ^ selection.adb:14:65:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
-                   Selection__sort__min.min.int__content ))))) <= (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__cmp__ixdcomp" "GP_Sloc:selection.adb:14:75" "GP_Id:7" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
-                                                                          ^ selection.adb:14:75:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= k) /\ (k <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+                  (if ((Boolean.andb((Selection__sort__L_1__j.j.int__content <= k)) ((k <= (#"selection.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:selection.adb:11:56" "GP_Id:5" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
+                                                       ^ selection.adb:11:56:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__range__sub" (Standard__integer.range_check_((Selection__sort__L_2__i.i.int__content - 1))) )))))) then (
+                    abstract ensures {true}(let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:11:65" "GP_Id:6" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
+                                                                ^ selection.adb:11:65:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+                   Selection__sort__min.min.int__content ))))) <= (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__pragargs__forall__cmp__ixdcomp" "GP_Sloc:selection.adb:11:75" "GP_Id:7" "comment:            pragma Loop_Invariant (for all K in J .. I - 1 => A(Min) <= A(K));
+                                                                          ^ selection.adb:11:75:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= k) /\ (k <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
                    k )))))) in (
                     ()))
                     end ))))
@@ -3447,16 +3447,16 @@ module Selection__sort__subprogram_def
                  Selection__sort__a.a__last )))))) in (
                   ()))
                   end ;
-                 () (* Loop statements appearing after the loop invariant of loop selection.adb:13 *)
+                 () (* Loop statements appearing after the loop invariant of loop selection.adb:10 *)
                  ;
-                 ( "GP_Sloc:selection.adb:17:25" (#"selection.adb" 17 0 0# ()) );
-                 ( "GP_Sloc:selection.adb:17:13" (#"selection.adb" 17 0 0# (if (((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (Selection__sort__L_2__i.i.int__content)))) < (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 17 0 0# assert { #"selection.adb" 17 0 0# (#"selection.adb" 17 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:17:25" "GP_Id:4" "comment:            if A(I) < A(Min) then
-                        ^ selection.adb:17:25:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__if__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+                 ( "GP_Sloc:selection.adb:14:25" (#"selection.adb" 14 0 0# ()) );
+                 ( "GP_Sloc:selection.adb:14:13" (#"selection.adb" 14 0 0# (if (((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (Selection__sort__L_2__i.i.int__content)))) < (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 14 0 0# assert { #"selection.adb" 14 0 0# (#"selection.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:14:25" "GP_Id:4" "comment:            if A(I) < A(Min) then
+                        ^ selection.adb:14:25:VC_INDEX_CHECK" "GP_Shape:L_1_while__L_2_while__if__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
                  Selection__sort__min.min.int__content ))))))) then (
-                  ( ( "GP_Sloc:selection.adb:18:16" (#"selection.adb" 18 0 0# ()) );
-                  ( "GP_Sloc:selection.adb:18:20" (#"selection.adb" 18 0 0# #"selection.adb" 18 0 0# Selection__sort__min.min.int__content <- ( Selection__sort__L_2__i.i.int__content )) ) )) else (
+                  ( ( "GP_Sloc:selection.adb:15:16" (#"selection.adb" 15 0 0# ()) );
+                  ( "GP_Sloc:selection.adb:15:20" (#"selection.adb" 15 0 0# #"selection.adb" 15 0 0# Selection__sort__min.min.int__content <- ( Selection__sort__L_2__i.i.int__content )) ) )) else (
                   ()))) );
-                 () (* Check for the exit condition and loop statements appearing before the loop invariant of loop selection.adb:13 *)
+                 () (* Check for the exit condition and loop statements appearing before the loop invariant of loop selection.adb:10 *)
                  ;
                  (if ((Selection__sort__L_2__i.i.int__content = temp___182)) then (
                    raise Selection__sort__L_2.L_2));
@@ -3469,22 +3469,22 @@ module Selection__sort__subprogram_def
              end)) )))
            ))
            ) );
-           ( "GP_Sloc:selection.adb:22:13" (#"selection.adb" 22 0 0# ()) );
-           ( "GP_Sloc:selection.adb:22:10" (#"selection.adb" 22 0 0# (if ((Selection__sort__min.min.int__content <> Selection__sort__L_1__j.j.int__content)) then (
-            ( ( "GP_Sloc:selection.adb:23:13" (#"selection.adb" 23 0 0# ()) );
-            ( "GP_Sloc:selection.adb:23:23" (#"selection.adb" 23 0 0# ()) );
-            ( "GP_Sloc:selection.adb:23:18" (#"selection.adb" 23 0 0# #"selection.adb" 23 0 0# Selection__sort__temp.temp.int__content <- ( (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 23 0 0# assert { #"selection.adb" 23 0 0# (#"selection.adb" 23 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:23:23" "GP_Id:10" "comment:            Temp := A(Min);
-                      ^ selection.adb:23:23:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__temp_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+           ( "GP_Sloc:selection.adb:19:13" (#"selection.adb" 19 0 0# ()) );
+           ( "GP_Sloc:selection.adb:19:10" (#"selection.adb" 19 0 0# (if ((Selection__sort__min.min.int__content <> Selection__sort__L_1__j.j.int__content)) then (
+            ( ( "GP_Sloc:selection.adb:20:13" (#"selection.adb" 20 0 0# ()) );
+            ( "GP_Sloc:selection.adb:20:23" (#"selection.adb" 20 0 0# ()) );
+            ( "GP_Sloc:selection.adb:20:18" (#"selection.adb" 20 0 0# #"selection.adb" 20 0 0# Selection__sort__temp.temp.int__content <- ( (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 20 0 0# assert { #"selection.adb" 20 0 0# (#"selection.adb" 20 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:20:23" "GP_Id:10" "comment:            Temp := A(Min);
+                      ^ selection.adb:20:23:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__temp_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
             Selection__sort__min.min.int__content ))))) )) );
-            ( "GP_Sloc:selection.adb:24:15" (#"selection.adb" 24 0 0# ()) );
-            ( "GP_Sloc:selection.adb:24:20" (#"selection.adb" 24 0 0# #"selection.adb" 24 0 0# Selection__sort__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 24 0 0# assert { #"selection.adb" 24 0 0# (#"selection.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:24:15" "GP_Shape:L_1_while__if__a_assign__ixdcomp" "GP_Id:12" "comment:            A(Min) := A(J);
-              ^ selection.adb:24:15:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
-            Selection__sort__min.min.int__content )) ((Standard__integer__rep.of_rep((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:24:25" "GP_Id:11" "comment:            A(Min) := A(J);
-                        ^ selection.adb:24:25:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__a_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__L_1__j.j.int__content) /\ (Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+            ( "GP_Sloc:selection.adb:21:15" (#"selection.adb" 21 0 0# ()) );
+            ( "GP_Sloc:selection.adb:21:20" (#"selection.adb" 21 0 0# #"selection.adb" 21 0 0# Selection__sort__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 21 0 0# assert { #"selection.adb" 21 0 0# (#"selection.adb" 21 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:21:15" "GP_Shape:L_1_while__if__a_assign__ixdcomp" "GP_Id:12" "comment:            A(Min) := A(J);
+              ^ selection.adb:21:15:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__min.min.int__content) /\ (Selection__sort__min.min.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+            Selection__sort__min.min.int__content )) ((Standard__integer__rep.of_rep((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Selection__sort__a.a.Array__Int__Standard__integer.map__content) ((  assert {  (#"selection.adb" 21 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:selection.adb:21:25" "GP_Id:11" "comment:            A(Min) := A(J);
+                        ^ selection.adb:21:25:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__a_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__L_1__j.j.int__content) /\ (Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
             Selection__sort__L_1__j.j.int__content ))))))))) )) );
-            ( "GP_Sloc:selection.adb:25:21" (#"selection.adb" 25 0 0# ()) );
-            ( "GP_Sloc:selection.adb:25:18" (#"selection.adb" 25 0 0# #"selection.adb" 25 0 0# Selection__sort__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 25 0 0# assert { #"selection.adb" 25 0 0# (#"selection.adb" 25 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__a_assign__ixdcomp" "GP_Sloc:selection.adb:25:15" "GP_Id:13" "comment:            A(J) := Temp;
-              ^ selection.adb:25:15:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__L_1__j.j.int__content) /\ (Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
+            ( "GP_Sloc:selection.adb:22:21" (#"selection.adb" 22 0 0# ()) );
+            ( "GP_Sloc:selection.adb:22:18" (#"selection.adb" 22 0 0# #"selection.adb" 22 0 0# Selection__sort__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Selection__sort__a.a.Array__Int__Standard__integer.map__content) (( #"selection.adb" 22 0 0# assert { #"selection.adb" 22 0 0# (#"selection.adb" 22 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__a_assign__ixdcomp" "GP_Sloc:selection.adb:22:15" "GP_Id:13" "comment:            A(J) := Temp;
+              ^ selection.adb:22:15:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Selection__sort__a.a__first) <= Selection__sort__L_1__j.j.int__content) /\ (Selection__sort__L_1__j.j.int__content <= (Standard__integer__rep.to_rep Selection__sort__a.a__last)) ) )) };
             Selection__sort__L_1__j.j.int__content )) ((Standard__integer__rep.of_rep(Selection__sort__temp.temp.int__content)))) )) ) )) else (
             ()))) ) )
           done )))
