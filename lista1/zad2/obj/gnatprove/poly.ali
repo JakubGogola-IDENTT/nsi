@@ -7,26 +7,27 @@ P GP FX
 
 RN
 RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
-RV SPARK_05
 
-U poly%b		poly.adb		d9d048f4 OO PK
+U poly%b		poly.adb		c2644589 OO PK
 
 U poly%s		poly.ads		11f2a339 OO PK
 
-D poly.ads		20190316104651 11f2a339 poly%s
-D poly.adb		20190316102617 c822ebcd poly%b
-D system.ads		20190227221159 4635ec04 system%s
+D poly.ads		20190324122251 11f2a339 poly%s
+D poly.adb		20190324122435 d396e6b0 poly%b
+D system.ads		20190320215607 4635ec04 system%s
 X 1 poly.ads
-1K9*Poly 7l5 7e9 2|1b14 13l5 13t9
-2A9*Vector(integer)<integer> 4r38 2|2r38
-4V13*Horner{integer} 4>21 4>34 2|2b13 12l8 12t14
-4i21 X{integer} 2|2b21 8r29
-4a34 A{2A9} 6r15 2|2b34 5r17 5r19 7r16 7r31 8r33
+1K9*Poly 6l5 6e9 2|1b14 18l5 18t9
+2A9*Vector(integer)<integer> 3r38 2|2r38
+3V13*Horner{integer} 3>21 3>34 2|2b13 17l8 17t14
+3i21 X{integer} 2|2b21 7r45 8r29 10r47
+3a34 A{2A9} 5r15 2|2b34 6r24 7r37 7r55 8r33 10r57 11r38
 X 2 poly.adb
-3i7 Result{integer} 5m7 8m10 8r20 11r14
-7i11 I{integer} 8r35
+3i7 Result{integer} 8m10 8r20 10r69 14r22 16r14
+4i7 Definition{integer} 7m10 7r24 10r33 14r31
+6i11 I{integer} 7r39 7r51 8r35 10r53 11r33
 
 QQ SPARKVERSION 2018 (20180524)
 GG EK_DIRECT_CALLS poly__horner 0

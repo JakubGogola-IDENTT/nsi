@@ -1,2 +1,6 @@
-poly.adb:8:27: medium: overflow check might fail (e.g. when Result = -2 and X = 2)[#1]
-poly.adb:8:31: medium: overflow check might fail[#0]
+poly.adb:7:35: medium: overflow check might fail (e.g. when Definition = 0)[#3]
+poly.adb:7:42: medium: overflow check might fail (e.g. when Definition = 0)[#2]
+poly.adb:7:47: medium: overflow check might fail (e.g. when Definition = 0)[#5]
+poly.adb:8:27: medium: overflow check might fail (e.g. when Result = 0 and X = 0)[#4]
+poly.adb:8:31: medium: overflow check might fail (e.g. when Result = 0)[#1]
+poly.adb:10:49: medium: overflow check might fail[#0]

@@ -1,22 +1,22 @@
 Summary of SPARK analysis
 =========================
 
--------------------------------------------------------------------------------------------------------
-SPARK Analysis results        Total       Flow   Interval   CodePeer     Provers   Justified   Unproved
--------------------------------------------------------------------------------------------------------
-Data Dependencies                 .          .          .          .           .           .          .
-Flow Dependencies                 .          .          .          .           .           .          .
-Initialization                    2          2          .          .           .           .          .
-Non-Aliasing                      .          .          .          .           .           .          .
-Run-time Checks                   5          .          .          .    3 (CVC4)           .          2
-Assertions                        .          .          .          .           .           .          .
-Functional Contracts              .          .          .          .           .           .          .
-LSP Verification                  .          .          .          .           .           .          .
--------------------------------------------------------------------------------------------------------
-Total                             7    2 (29%)          .          .     3 (43%)           .    2 (29%)
+------------------------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow   Interval   CodePeer                      Provers   Justified   Unproved
+------------------------------------------------------------------------------------------------------------------------
+Data Dependencies                 .          .          .          .                            .           .          .
+Flow Dependencies                 .          .          .          .                            .           .          .
+Initialization                    7          7          .          .                            .           .          .
+Non-Aliasing                      .          .          .          .                            .           .          .
+Run-time Checks                  11          .          .          .                     5 (CVC4)           .          6
+Assertions                        5          .          .          .    5 (CVC4 71%, altergo 29%)           .          .
+Functional Contracts              .          .          .          .                            .           .          .
+LSP Verification                  .          .          .          .                            .           .          .
+------------------------------------------------------------------------------------------------------------------------
+Total                            23    7 (30%)          .          .                     10 (43%)           .    6 (26%)
 
 
 Analyzed 1 unit
 in unit poly, 2 subprograms and packages out of 2 analyzed
   Poly at poly.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Poly.Horner at poly.ads:4 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 3 checks out of 5 proved
+  Poly.Horner at poly.ads:3 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 10 checks out of 16 proved

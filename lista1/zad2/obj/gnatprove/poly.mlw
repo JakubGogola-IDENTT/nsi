@@ -1792,11 +1792,11 @@ module Poly__vector
 
 end
 
-(* Module for defining the constant "x" defined at poly.ads:4, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "x" defined at poly.ads:3, created in Gnat2Why.Decls.Translate_Constant *)
 module Poly__horner__x
  use import "_gnatprove_standard".Main
 
- function x #"poly.ads" 4 0 0#"model" "model_trace:2434" "name:X" 
+ function x #"poly.ads" 3 0 0#"model" "model_trace:2476" "name:X" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1804,19 +1804,19 @@ module Poly__horner__x
 
 end
 
-(* Module giving an empty axiom for the entity "x" defined at poly.ads:4, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "x" defined at poly.ads:3, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Poly__horner__x___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "a" defined at poly.ads:4, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "a" defined at poly.ads:3, created in Gnat2Why.Decls.Translate_Constant *)
 module Poly__horner__a
  use import "_gnatprove_standard".Main
  use        Poly__vector
 
- function a #"poly.ads" 4 0 0#"model_projected" "model_trace:2443" "name:A" 
+ function a #"poly.ads" 3 0 0#"model_projected" "model_trace:2485" "name:A" 
    : Poly__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1824,14 +1824,14 @@ module Poly__horner__a
 
 end
 
-(* Module giving an empty axiom for the entity "a" defined at poly.ads:4, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "a" defined at poly.ads:3, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Poly__horner__a___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "horner" defined at poly.ads:4, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "horner" defined at poly.ads:3, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Poly__horner
  use import "_gnatprove_standard".Main
  use        Poly__vector
@@ -1942,7 +1942,7 @@ module Poly__horner__S1b
 
 end
 
-(* Module for axiomatizing type "T2b" defined at poly.adb:7, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T2b" defined at poly.adb:6, created in Gnat2Why.Types.Translate_Type *)
 module Poly__horner__L_1__T2b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -1997,18 +1997,36 @@ module Poly__horner__result___axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "i" defined at poly.adb:7, created in Gnat2Why.Decls.Translate_Variable *)
-module Poly__horner__L_1__i
+(* Module for defining a ref holding the value of variable "definition" defined at poly.adb:4, created in Gnat2Why.Decls.Translate_Variable *)
+module Poly__horner__definition
  use import "_gnatprove_standard".Main
 
- val i #"poly.adb" 7 0 0#"model_projected" "model_trace:2354" "name:I"  : int__ref 
+ val definition #"poly.adb" 4 0 0#"model_projected" "model_trace:2345" "name:Definition"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "i" defined at poly.adb:7, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "definition" defined at poly.adb:4, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Poly__horner__definition___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "i" defined at poly.adb:6, created in Gnat2Why.Decls.Translate_Variable *)
+module Poly__horner__L_1__i
+ use import "_gnatprove_standard".Main
+
+ val i #"poly.adb" 6 0 0#"model_projected" "model_trace:2361" "name:I"  : int__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "i" defined at poly.adb:6, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Poly__horner__L_1__i___axiom
  use import "_gnatprove_standard".Main
 
@@ -2377,7 +2395,7 @@ module Standard__universal_integer___axiom
 
 end
 
-(* Module for defining the loop exit exception for the loop "L_1" defined at poly.adb:7, created in Gnat2Why.Decls.Translate_Loop_Entity *)
+(* Module for defining the loop exit exception for the loop "L_1" defined at poly.adb:6, created in Gnat2Why.Decls.Translate_Loop_Entity *)
 module Poly__horner__L_1
  use import "_gnatprove_standard".Main
 
@@ -2385,7 +2403,7 @@ module Poly__horner__L_1
 
 end
 
-(* Module giving an empty axiom for the entity "L_1" defined at poly.adb:7, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "L_1" defined at poly.adb:6, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Poly__horner__L_1___axiom
  use import "_gnatprove_standard".Main
 
@@ -2432,13 +2450,13 @@ module Poly__horner__S1b___axiom
 
 end
 
-(* Module giving axioms for type "T2b" defined at poly.adb:7, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T2b" defined at poly.adb:6, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Poly__horner__L_1__T2b___axiom
  use import "_gnatprove_standard".Main
 
 
 end
-(* Module for declaring a program function (and possibly an axiom) for "horner" defined at poly.ads:4, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "horner" defined at poly.ads:3, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Poly__horner___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2473,31 +2491,35 @@ module Poly__package_def
    =
   ( (#"poly.ads" 1 0 0# ());
   (#"poly.ads" 2 0 0# ());
-  (#"poly.ads" 4 0 0# ());
-  (#"poly.ads" 6 0 0# ());
-  (#"poly.ads" 6 0 0# ());
-  (#"poly.ads" 6 0 0# ());
+  (#"poly.ads" 3 0 0# ());
+  (#"poly.ads" 5 0 0# ());
+  (#"poly.ads" 5 0 0# ());
+  (#"poly.ads" 5 0 0# ());
   (#"poly.adb" 1 0 0# ());
   (#"poly.adb" 2 0 0# ());
-  ( "GP_Sloc:poly.adb:13:1" (#"poly.adb" 13 0 0# ()) ) )
+  ( "GP_Sloc:poly.adb:18:1" (#"poly.adb" 18 0 0# ()) ) )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "horner" defined at poly.ads:4, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "horner" defined at poly.ads:3, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Poly__horner__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
+ use        "_gnatprove_standard".Int_Power
  use        "_gnatprove_standard".Boolean
  use        Standard__integer
  use        Standard__integer
  use        Standard__integer___axiom
  use        Standard__integer__rep
+ use        Standard__natural
  use        Array__Int__Standard__integer
  use        Poly__vector
  use        Poly__vector___axiom
  use        Poly__horner__x
  use        Poly__horner__a
  use        Poly__horner__result
+ use        Poly__horner__definition
  use        Poly__horner__L_1
+ use        Poly__horner__L_1__T2b
  use        Poly__horner__L_1__i
  use        Array__Int__Standard__integer
  use        Array__Int__Standard__integer
@@ -2505,108 +2527,180 @@ module Poly__horner__subprogram_def
  use        Standard__natural___axiom
  use        Standard__integer___axiom
  use        Poly__horner__result___axiom
+ use        Poly__horner__definition___axiom
  use        Poly__horner__L_1__i___axiom
  use        Poly__horner__L_1___axiom
  use        Poly__vector___axiom
  use        Poly__horner__x___axiom
  use        Poly__horner__a___axiom
+ use        Poly__horner__L_1__T2b___axiom
 
- val poly__horner__result "model_projected" "model_trace:2427@result" "name:Horner"  : int__ref 
+ val poly__horner__result "model_projected" "model_trace:2469@result" "name:Horner"  : int__ref 
  
- let def #"poly.ads" 4 0 0#"W:diverges:N" "GP_Subp:poly.ads:4" 
+ let def #"poly.ads" 3 0 0#"W:diverges:N" "GP_Subp:poly.ads:3" 
    (__void_param : unit)
-  requires { #"poly.ads" 4 0 0# true }
-  ensures { #"poly.ads" 4 0 0# true }
+  requires { #"poly.ads" 3 0 0# true }
+  ensures { #"poly.ads" 3 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram poly.ads:4 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram poly.ads:3 *)
   ;
-  #"poly.ads" 4 0 0# assume { #"poly.ads" 4 0 0# (Standard__integer___axiom.dynamic_invariant Poly__horner__x.x True False True True) };
-  #"poly.ads" 4 0 0# assume { #"poly.ads" 4 0 0# (Poly__vector___axiom.dynamic_invariant Poly__horner__a.a True False True True) };
-  #"poly.ads" 4 0 0# assume { #"poly.ads" 4 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram poly.ads:4 *)
+  #"poly.ads" 3 0 0# assume { #"poly.ads" 3 0 0# (Standard__integer___axiom.dynamic_invariant Poly__horner__x.x True False True True) };
+  #"poly.ads" 3 0 0# assume { #"poly.ads" 3 0 0# (Poly__vector___axiom.dynamic_invariant Poly__horner__a.a True False True True) };
+  #"poly.ads" 3 0 0# assume { #"poly.ads" 3 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram poly.ads:3 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram poly.ads:4 *)
+  () (* Check for RTE in the Pre of the subprogram poly.ads:3 *)
   ;
-  #"poly.ads" 4 0 0# abstract ensures {true}(let _ = (( #"poly.ads" 4 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
+  #"poly.ads" 3 0 0# abstract ensures {true}(let _ = (( #"poly.ads" 3 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
    ()))
    end ;
   (Poly__vector.length(Poly__horner__a.a)) ) > 1) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram poly.ads:4 *)
+  () (* Assume Pre of the subprogram poly.ads:3 *)
   ;
-  #"poly.ads" 4 0 0# assume { #"poly.ads" 4 0 0# ((Poly__vector.length Poly__horner__a.a) > 1) };
-  #"poly.ads" 4 0 0# try
+  #"poly.ads" 3 0 0# assume { #"poly.ads" 3 0 0# ((Poly__vector.length Poly__horner__a.a) > 1) };
+  #"poly.ads" 3 0 0# try
    ( (#"poly.adb" 2 0 0# ());
-   (#"poly.adb" 3 0 0# ( #"poly.adb" 3 0 0# abstract ensures {true}(let _ = () in (
-    ()))
-    end ;
-   #"poly.adb" 3 0 0# assume { #"poly.adb" 3 0 0# (Standard__integer___axiom.default_initial_assumption Poly__horner__result.result__.int__content False) };
-   #"poly.adb" 3 0 0# assume { #"poly.adb" 3 0 0# (Standard__integer___axiom.dynamic_invariant Poly__horner__result.result__.int__content False False True True) } ));
-   (#"poly.adb" 7 0 0# ());
-   ( "GP_Sloc:poly.adb:5:7" (#"poly.adb" 5 0 0# ()) );
-   ( "GP_Sloc:poly.adb:5:14" (#"poly.adb" 5 0 0# #"poly.adb" 5 0 0# Poly__horner__result.result__.int__content <- ( (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get((Poly__vector.to_array(Poly__horner__a.a))) ((let temp___173 = ( #"poly.adb" 5 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
+   (#"poly.adb" 3 0 0# ( #"poly.adb" 3 0 0# Poly__horner__result.result__.int__content <- ( 0 );
+   #"poly.adb" 3 0 0# assume { #"poly.adb" 3 0 0# (Standard__integer___axiom.dynamic_invariant Poly__horner__result.result__.int__content True False True True) } ));
+   (#"poly.adb" 4 0 0# ( #"poly.adb" 4 0 0# Poly__horner__definition.definition.int__content <- ( 0 );
+   #"poly.adb" 4 0 0# assume { #"poly.adb" 4 0 0# (Standard__integer___axiom.dynamic_invariant Poly__horner__definition.definition.int__content True False True True) } ));
+   (#"poly.adb" 4 0 0# ());
+   (#"poly.adb" 6 0 0# ());
+   ( "GP_Sloc:poly.adb:6:32" (#"poly.adb" 6 0 0# (let temp___173 = ( #"poly.adb" 6 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
     ()))
     end ;
    (Poly__vector.first(Poly__horner__a.a)) ) in (
-    ( #"poly.adb" 5 0 0# assert { #"poly.adb" 5 0 0# (#"poly.adb" 5 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:poly.adb:5:20" "GP_Reason:VC_INDEX_CHECK" "GP_Id:0" "comment:      Result := A(A'First);
-                   ^ poly.adb:5:20:VC_INDEX_CHECK" "GP_Shape:result_assign__ixdcomp__first_ref" ( ((Poly__vector.first Poly__horner__a.a) <= temp___173) /\ (temp___173 <= (Poly__vector.last Poly__horner__a.a)) ) )) };
-    temp___173 )))
-   )))) )) );
-   ( "GP_Sloc:poly.adb:7:38" (#"poly.adb" 7 0 0# (let temp___174 = (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:7:24" "GP_Id:4" "comment:      for I in A'First + 1 .. A'Last loop
-                       ^ poly.adb:7:24:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__range__add" (Standard__integer.range_check_((( #"poly.adb" 7 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
-    ()))
-    end ;
-   (Poly__vector.first(Poly__horner__a.a)) ) + 1))) )) in (
-   (let temp___175 = (  abstract ensures {true}(let _ = Poly__horner__a.a in (
+   (let temp___174 = ( #"poly.adb" 6 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
     ()))
     end ;
    (Poly__vector.last(Poly__horner__a.a)) ) in (
-    (  Poly__horner__L_1__i.i.int__content <- ( temp___174 );
-    () (* Translation of an Ada loop from poly.adb:7 *)
+    ( #"poly.adb" 6 0 0# Poly__horner__L_1__i.i.int__content <- ( temp___174 );
+    () (* Translation of an Ada loop from poly.adb:6 *)
     ;
-    (if ((Boolean.andb((temp___174 <= Poly__horner__L_1__i.i.int__content)) ((Poly__horner__L_1__i.i.int__content <= temp___175)))) then (
-      try
-      (  abstract ensures {true}(let _ = Poly__horner__result.result__.int__content in (
+    (if ((Boolean.andb((temp___173 <= Poly__horner__L_1__i.i.int__content)) ((Poly__horner__L_1__i.i.int__content <= temp___174)))) then (
+     #"poly.adb" 6 0 0# try
+      ( #"poly.adb" 6 0 0# abstract ensures {true}(let _ = Poly__horner__L_1__i.i.int__content in (
        ()))
        end ;
-      (let temp___176 =  (any int
-      ensures { (result = Poly__horner__result.result__.int__content)} 
+      (let temp___178 = #"poly.adb" 6 0 0# (any int
+      ensures {#"poly.adb" 6 0 0# (result = Poly__horner__L_1__i.i.int__content)} 
       ) in (
-       ( () (* First unroling of the loop statements appearing before the loop invariant of loop poly.adb:7 *)
-       ;
-       () (* While loop translating the Ada loop from poly.adb:7 *)
-       ;
-        while True do
-        ( () (* Assume implicit invariants from the loop poly.adb:7 *)
-        ;
-         assume {  (Boolean.andb(( ( true /\ (Standard__integer___axiom.dynamic_invariant Poly__horner__result.result__.int__content False True True True) ) /\ true )) (( (((Poly__vector.first Poly__horner__a.a) + 1) <= Poly__horner__L_1__i.i.int__content) /\ (Poly__horner__L_1__i.i.int__content <= (Poly__vector.last Poly__horner__a.a)) ))) };
-        () (* Check for absence of RTE in the invariant of loop poly.adb:7 *)
-        ;
-        () (* Loop statements appearing after the loop invariant of loop poly.adb:7 *)
-        ;
-        ( "GP_Sloc:poly.adb:8:10" (#"poly.adb" 8 0 0# ()) );
-        ( "GP_Sloc:poly.adb:8:20" (#"poly.adb" 8 0 0# ()) );
-        ( "GP_Sloc:poly.adb:8:17" (#"poly.adb" 8 0 0# #"poly.adb" 8 0 0# Poly__horner__result.result__.int__content <- ( (#"poly.adb" 8 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:8:31" "GP_Id:3" "comment:         Result := Result * X + A(I);
-                              ^ poly.adb:8:31:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__result_assign__add" (Standard__integer.range_check_(((#"poly.adb" 8 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:poly.adb:8:27" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Id:1" "comment:         Result := Result * X + A(I);
-                          ^ poly.adb:8:27:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__result_assign__add__mult" (Standard__integer.range_check_((Poly__horner__result.result__.int__content * Poly__horner__x.x))) )) + (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get((Poly__vector.to_array(Poly__horner__a.a))) ((  assert {  (#"poly.adb" 8 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:poly.adb:8:35" "GP_Id:2" "comment:         Result := Result * X + A(I);
-                                  ^ poly.adb:8:35:VC_INDEX_CHECK" "GP_Shape:L_1_while__result_assign__add__ixdcomp" ( ((Poly__vector.first Poly__horner__a.a) <= Poly__horner__L_1__i.i.int__content) /\ (Poly__horner__L_1__i.i.int__content <= (Poly__vector.last Poly__horner__a.a)) ) )) };
-        Poly__horner__L_1__i.i.int__content )))))))) )) )) );
-        () (* Check for the exit condition and loop statements appearing before the loop invariant of loop poly.adb:7 *)
-        ;
-        (if ((Poly__horner__L_1__i.i.int__content = temp___175)) then (
-          raise Poly__horner__L_1.L_1));
-         Poly__horner__L_1__i.i.int__content <- ( (Poly__horner__L_1__i.i.int__content + 1) ) )
-       done )))
+       ( #"poly.adb" 6 0 0# abstract ensures {true}(let _ = Poly__horner__definition.definition.int__content in (
+        ()))
+        end ;
+       (let temp___177 = #"poly.adb" 6 0 0# (any int
+       ensures {#"poly.adb" 6 0 0# (result = Poly__horner__definition.definition.int__content)} 
+       ) in (
+        ( #"poly.adb" 6 0 0# abstract ensures {true}(let _ = Poly__horner__result.result__.int__content in (
+         ()))
+         end ;
+        (let temp___176 = #"poly.adb" 6 0 0# (any int
+        ensures {#"poly.adb" 6 0 0# (result = Poly__horner__result.result__.int__content)} 
+        ) in (
+         ( () (* First unroling of the loop statements appearing before the loop invariant of loop poly.adb:6 *)
+         ;
+         ( "GP_Sloc:poly.adb:7:10" (#"poly.adb" 7 0 0# ()) );
+         ( "GP_Sloc:poly.adb:7:24" (#"poly.adb" 7 0 0# ()) );
+         ( "GP_Sloc:poly.adb:7:21" (#"poly.adb" 7 0 0# #"poly.adb" 7 0 0# Poly__horner__definition.definition.int__content <- ( (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:7:35" "GP_Id:4" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                  ^ poly.adb:7:35:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__definition_assign__add" (Standard__integer.range_check_((Poly__horner__definition.definition.int__content + (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:7:42" "GP_Id:3" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                         ^ poly.adb:7:42:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__definition_assign__add__mult" (Standard__integer.range_check_(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get((Poly__vector.to_array(Poly__horner__a.a))) (Poly__horner__L_1__i.i.int__content)))) * (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:7:47" "GP_Id:2" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                              ^ poly.adb:7:47:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__definition_assign__add__mult__exp" (Standard__integer.range_check_((let temp___175 = (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:poly.adb:7:53" "GP_Shape:L_1_while__definition_assign__add__mult__exp__sub" "GP_Reason:VC_RANGE_CHECK" "GP_Id:1" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                                    ^ poly.adb:7:53:VC_RANGE_CHECK" (Standard__natural.range_check_((#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:poly.adb:7:53" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Id:0" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                                    ^ poly.adb:7:53:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__definition_assign__add__mult__exp__sub" (Standard__integer.range_check_((Poly__horner__L_1__i.i.int__content - ( #"poly.adb" 7 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
+          ()))
+          end ;
+         (Poly__vector.first(Poly__horner__a.a)) )))) )))) )) in (
+          (Int_Power.power(Poly__horner__x.x) (temp___175))))
+         )) ))))) ))))) )) )) );
+         ( "GP_Sloc:poly.adb:8:10" (#"poly.adb" 8 0 0# ()) );
+         ( "GP_Sloc:poly.adb:8:20" (#"poly.adb" 8 0 0# ()) );
+         ( "GP_Sloc:poly.adb:8:17" (#"poly.adb" 8 0 0# #"poly.adb" 8 0 0# Poly__horner__result.result__.int__content <- ( (#"poly.adb" 8 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:8:31" "GP_Id:6" "comment:         Result := Result * X + A(I);
+                              ^ poly.adb:8:31:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__result_assign__add" (Standard__integer.range_check_(((#"poly.adb" 8 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:8:27" "GP_Id:5" "comment:         Result := Result * X + A(I);
+                          ^ poly.adb:8:27:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__result_assign__add__mult" (Standard__integer.range_check_((Poly__horner__result.result__.int__content * Poly__horner__x.x))) )) + (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get((Poly__vector.to_array(Poly__horner__a.a))) (Poly__horner__L_1__i.i.int__content))))))) )) )) );
+         () (* While loop translating the Ada loop from poly.adb:6 *)
+         ;
+          while True do
+          invariant { 
+           (#"poly.adb" 10 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:poly.adb:10:33" "GP_Reason:VC_LOOP_INVARIANT" "GP_Id:11" "comment:         pragma Loop_Invariant (Definition = (X ** (I - A'First)) * Result);
+                                ^ poly.adb:10:33:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__pragargs__cmp" ( "GP_Pretty_Ada:2401" "GP_Sloc:poly.adb:10:33" (Poly__horner__definition.definition.int__content = ((let temp___180 = (Poly__horner__L_1__i.i.int__content - (Poly__vector.first Poly__horner__a.a)) in (
+            (Int_Power.power Poly__horner__x.x temp___180)))
+            * Poly__horner__result.result__.int__content)) ) ))
+           }
+          invariant { 
+           (#"poly.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_INVARIANT" "GP_Sloc:poly.adb:11:33" "GP_Id:12" "comment:         pragma Loop_Invariant (I in A'Range);
+                                ^ poly.adb:11:33:VC_LOOP_INVARIANT" "GP_Shape:L_1_while__pragargs__in" ( "GP_Pretty_Ada:2416" "GP_Sloc:poly.adb:11:33" ( ((Poly__vector.first Poly__horner__a.a) <= Poly__horner__L_1__i.i.int__content) /\ (Poly__horner__L_1__i.i.int__content <= (Poly__vector.last Poly__horner__a.a)) ) ) ))
+           }
+          ( () (* Assume implicit invariants from the loop poly.adb:6 *)
+          ;
+           assume {  (Boolean.andb(( ( ( ( ( ( true /\ (Standard__integer___axiom.dynamic_invariant Poly__horner__result.result__.int__content False True True True) ) /\ true ) /\ (Standard__integer___axiom.dynamic_invariant Poly__horner__definition.definition.int__content False True True True) ) /\ true ) /\ (if (((Poly__vector.first Poly__horner__a.a) <= (Poly__vector.last Poly__horner__a.a))) then (
+           (Poly__horner__L_1__T2b.dynamic_property (Poly__vector.first Poly__horner__a.a) (Poly__vector.last Poly__horner__a.a) Poly__horner__L_1__i.i.int__content)) else true) ) /\ true )) (( ((Poly__vector.first Poly__horner__a.a) <= Poly__horner__L_1__i.i.int__content) /\ (Poly__horner__L_1__i.i.int__content <= (Poly__vector.last Poly__horner__a.a)) ))) };
+          () (* Check for absence of RTE in the invariant of loop poly.adb:6 *)
+          ;
+           abstract ensures {true}(let _ = (Poly__horner__definition.definition.int__content = (#"poly.adb" 10 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:10:67" "GP_Id:10" "comment:         pragma Loop_Invariant (Definition = (X ** (I - A'First)) * Result);
+                                                                  ^ poly.adb:10:67:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__pragargs__cmp__mult" (Standard__integer.range_check_(((#"poly.adb" 10 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:10:49" "GP_Id:9" "comment:         pragma Loop_Invariant (Definition = (X ** (I - A'First)) * Result);
+                                                ^ poly.adb:10:49:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__pragargs__cmp__mult__exp" (Standard__integer.range_check_((let temp___179 = (#"poly.adb" 10 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:poly.adb:10:55" "GP_Shape:L_1_while__pragargs__cmp__mult__exp__sub" "GP_Id:8" "comment:         pragma Loop_Invariant (Definition = (X ** (I - A'First)) * Result);
+                                                      ^ poly.adb:10:55:VC_RANGE_CHECK" (Standard__natural.range_check_((#"poly.adb" 10 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:10:55" "GP_Id:7" "comment:         pragma Loop_Invariant (Definition = (X ** (I - A'First)) * Result);
+                                                      ^ poly.adb:10:55:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__pragargs__cmp__mult__exp__sub" (Standard__integer.range_check_((Poly__horner__L_1__i.i.int__content - ( #"poly.adb" 10 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
+           ()))
+           end ;
+          (Poly__vector.first(Poly__horner__a.a)) )))) )))) )) in (
+           (Int_Power.power(Poly__horner__x.x) (temp___179))))
+          )) )) * Poly__horner__result.result__.int__content))) ))) in (
+           ()))
+           end ;
+           abstract ensures {true}(let _ = (Boolean.andb(((  abstract ensures {true}(let _ = Poly__horner__a.a in (
+           ()))
+           end ;
+          (Poly__vector.first(Poly__horner__a.a)) ) <= Poly__horner__L_1__i.i.int__content)) ((Poly__horner__L_1__i.i.int__content <= (  abstract ensures {true}(let _ = Poly__horner__a.a in (
+           ()))
+           end ;
+          (Poly__vector.last(Poly__horner__a.a)) )))) in (
+           ()))
+           end ;
+          () (* Loop statements appearing after the loop invariant of loop poly.adb:6 *)
+          ;
+          () (* Check for the exit condition and loop statements appearing before the loop invariant of loop poly.adb:6 *)
+          ;
+          (if ((Poly__horner__L_1__i.i.int__content = temp___173)) then (
+            raise Poly__horner__L_1.L_1));
+           Poly__horner__L_1__i.i.int__content <- ( (Poly__horner__L_1__i.i.int__content - 1) );
+          ( "GP_Sloc:poly.adb:7:10" (#"poly.adb" 7 0 0# ()) );
+          ( "GP_Sloc:poly.adb:7:24" (#"poly.adb" 7 0 0# ()) );
+          ( "GP_Sloc:poly.adb:7:21" (#"poly.adb" 7 0 0# #"poly.adb" 7 0 0# Poly__horner__definition.definition.int__content <- ( (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:7:35" "GP_Id:4" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                  ^ poly.adb:7:35:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__definition_assign__add" (Standard__integer.range_check_((Poly__horner__definition.definition.int__content + (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:7:42" "GP_Id:3" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                         ^ poly.adb:7:42:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__definition_assign__add__mult" (Standard__integer.range_check_(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get((Poly__vector.to_array(Poly__horner__a.a))) (Poly__horner__L_1__i.i.int__content)))) * (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:7:47" "GP_Id:2" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                              ^ poly.adb:7:47:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__definition_assign__add__mult__exp" (Standard__integer.range_check_((let temp___175 = (#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:poly.adb:7:53" "GP_Shape:L_1_while__definition_assign__add__mult__exp__sub" "GP_Reason:VC_RANGE_CHECK" "GP_Id:1" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                                    ^ poly.adb:7:53:VC_RANGE_CHECK" (Standard__natural.range_check_((#"poly.adb" 7 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:poly.adb:7:53" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Id:0" "comment:         Definition := Definition + A(I) * (X ** (I - A'First));
+                                                    ^ poly.adb:7:53:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__definition_assign__add__mult__exp__sub" (Standard__integer.range_check_((Poly__horner__L_1__i.i.int__content - ( #"poly.adb" 7 0 0# abstract ensures {true}(let _ = Poly__horner__a.a in (
+           ()))
+           end ;
+          (Poly__vector.first(Poly__horner__a.a)) )))) )))) )) in (
+           (Int_Power.power(Poly__horner__x.x) (temp___175))))
+          )) ))))) ))))) )) )) );
+          ( "GP_Sloc:poly.adb:8:10" (#"poly.adb" 8 0 0# ()) );
+          ( "GP_Sloc:poly.adb:8:20" (#"poly.adb" 8 0 0# ()) );
+          ( "GP_Sloc:poly.adb:8:17" (#"poly.adb" 8 0 0# #"poly.adb" 8 0 0# Poly__horner__result.result__.int__content <- ( (#"poly.adb" 8 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:8:31" "GP_Id:6" "comment:         Result := Result * X + A(I);
+                              ^ poly.adb:8:31:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__result_assign__add" (Standard__integer.range_check_(((#"poly.adb" 8 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:poly.adb:8:27" "GP_Id:5" "comment:         Result := Result * X + A(I);
+                          ^ poly.adb:8:27:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__result_assign__add__mult" (Standard__integer.range_check_((Poly__horner__result.result__.int__content * Poly__horner__x.x))) )) + (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get((Poly__vector.to_array(Poly__horner__a.a))) (Poly__horner__L_1__i.i.int__content))))))) )) )) ) )
+         done )))
+         )))
+        )))
        )
      with
       Poly__horner__L_1.L_1 -> ()
      end)) )))
    ))
    ) );
-   ( "GP_Sloc:poly.adb:11:14" (#"poly.adb" 11 0 0# ()) );
-   ( "GP_Sloc:poly.adb:11:7" (#"poly.adb" 11 0 0# ( #"poly.adb" 11 0 0# poly__horner__result.int__content <- ( Poly__horner__result.result__.int__content );
-   #"poly.adb" 11 0 0# raise Return__exc )) );
+   ( "GP_Sloc:poly.adb:14:7" (#"poly.adb" 14 0 0# ( #"poly.adb" 14 0 0# abstract ensures {true}(let _ = (Poly__horner__result.result__.int__content = Poly__horner__definition.definition.int__content) in (
+    ()))
+    end ;
+   #"poly.adb" 14 0 0# assert { #"poly.adb" 14 0 0# (#"poly.adb" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:poly.adb:14:22" "GP_Reason:VC_ASSERT" "GP_Id:13" "comment:      pragma Assert (Result = Definition);
+                     ^ poly.adb:14:22:VC_ASSERT" "GP_Shape:pragargs__cmp" ( "GP_Pretty_Ada:2424" "GP_Sloc:poly.adb:14:22" (Poly__horner__result.result__.int__content = Poly__horner__definition.definition.int__content) ) )) } )) );
+   ( "GP_Sloc:poly.adb:16:14" (#"poly.adb" 16 0 0# ()) );
+   ( "GP_Sloc:poly.adb:16:7" (#"poly.adb" 16 0 0# ( #"poly.adb" 16 0 0# poly__horner__result.int__content <- ( Poly__horner__result.result__.int__content );
+   #"poly.adb" 16 0 0# raise Return__exc )) );
     raise Return__exc )
   with
    Return__exc -> ()

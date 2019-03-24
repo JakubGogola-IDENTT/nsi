@@ -5,7 +5,11 @@ with Poly;
 use Poly;
 
 procedure Main is
-
+   X : Integer;
+   A : Vector (0 .. 2);
 begin
-   Put(10);
+   X := 2;
+   A := (5, 10, 15);
+
+   Put(Horner(X, A));
 end Main;
