@@ -1,2 +1,0 @@
-sqrt.adb:11:21: medium: float overflow check might fail[#0]
-sqrt.adb:12:15: medium: float overflow check might fail[#1]
