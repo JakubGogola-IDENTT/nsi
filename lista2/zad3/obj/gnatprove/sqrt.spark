@@ -1,0 +1,753 @@
+{
+  "spark": [
+    {
+      "name": "Sqrt",
+      "sloc": [
+        {
+          "file": "sqrt.adb",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "sqrt.adb",
+      "line": 12,
+      "col": 9,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "sqrt__flow__28.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 12,
+      "col": 9,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "sqrt__flow__29.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 13,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "sqrt__flow__30.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 14,
+      "col": 12,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "sqrt__flow__31.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 11,
+      "col": 43,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "sqrt__flow__32.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 17,
+      "col": 4,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "sqrt__flow__33.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "sqrt.adb",
+      "line": 12,
+      "col": 20,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 11,
+      "col": 21,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Invalid",
+              "steps": 40222,
+              "time": 1
+            },
+            "Z3": {
+              "result": "Invalid",
+              "steps": 16211224,
+              "time": 1.98000000000000E+00
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 10
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                  "CVC4": {
+                    "result": "Invalid",
+                    "steps": 34510,
+                    "time": 8.40000000000000E-01
+                  },
+                  "Z3": {
+                    "result": "Invalid",
+                    "steps": 21725246,
+                    "time": 3.17000000000000E+00
+                  },
+                  "altergo": {
+                    "result": "Timeout",
+                    "steps": -1,
+                    "time": 10
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4": {
+                    "result": "Invalid",
+                    "steps": 31850,
+                    "time": 5.40000000000000E-01
+                  },
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 362497,
+                    "time": 1.00100000000000E+01
+                  },
+                  "Z3": {
+                    "result": "Invalid",
+                    "steps": 7242538,
+                    "time": 9.60000000000000E-01
+                  },
+                  "altergo": {
+                    "result": "Timeout",
+                    "steps": -1,
+                    "time": 10
+                  }
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 11,
+      "check_col": 21,
+      "tracefile": "sqrt.adb_11_21_fp_overflow_check.trace",
+      "msg_id": 0,
+      "how_proved": "prover"
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 14,
+      "col": 17,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 31148,
+              "time": 8.30000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 14,
+      "check_col": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 462,
+          "max_time": 8.29999983310699E-01
+        }
+      }
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 6,
+      "col": 11,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 10
+            },
+            "Z3": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 10
+            },
+            "altergo": {
+              "result": "Valid",
+              "steps": 289,
+              "time": 7.59000000000000E-02
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 6,
+      "check_col": 11,
+      "how_proved": "prover",
+      "stats": {
+        "altergo": {
+          "count": 1,
+          "max_steps": 290,
+          "max_time": 7.59000033140182E-02
+        }
+      }
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 14,
+      "col": 17,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13055,
+              "time": 4.00000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 14,
+      "check_col": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 4.00000005960464E-01
+        }
+      }
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 6,
+      "col": 32,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "altergo": {
+              "result": "Valid",
+              "steps": 135,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 6,
+      "check_col": 32,
+      "how_proved": "prover",
+      "stats": {
+        "altergo": {
+          "count": 1,
+          "max_steps": 136,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 11,
+      "col": 31,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 10021,
+              "time": 1.50000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 11,
+      "check_col": 31,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 1.50000005960464E-01
+        }
+      }
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 12,
+      "col": 20,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 12,
+      "check_col": 20,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 6,
+      "col": 18,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "altergo": {
+              "result": "Valid",
+              "steps": 127,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 6,
+      "check_col": 18,
+      "how_proved": "prover",
+      "stats": {
+        "altergo": {
+          "count": 1,
+          "max_steps": 128,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 12,
+      "col": 15,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Invalid",
+              "steps": 28275,
+              "time": 4.70000000000000E-01
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 304505,
+              "time": 9.96000000000000E+00
+            },
+            "Z3": {
+              "result": "Invalid",
+              "steps": 5127513,
+              "time": 6.90000000000000E-01
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 10
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 12,
+      "check_col": 15,
+      "tracefile": "sqrt.adb_12_15_fp_overflow_check.trace",
+      "msg_id": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 6,
+      "col": 43,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 6,
+      "check_col": 43,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "sqrt.adb",
+      "line": 11,
+      "col": 17,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Sqrt",
+        "sloc": [
+          {
+            "file": "sqrt.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 18722,
+              "time": 7.30000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 6158,
+              "time": 1.90000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "sqrt.adb",
+      "check_line": 11,
+      "check_col": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 107,
+          "max_time": 7.30000019073486E-01
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Sqrt",
+          "sloc": [
+            {
+              "file": "sqrt.adb",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 1.14000002213288E-04,
+    "globals (basic)": 9.20000020414591E-05,
+    "globals/properties (advanced)": 1.69999999343418E-04,
+    "flow analysis": 1.20900000911206E-03,
+    "codepeer results": 3.00000010611257E-06,
+    "init_why_sections": 1.38000003062189E-04,
+    "translation of standard": 2.31199990957975E-03,
+    "translation of compilation unit": 9.89999971352518E-04,
+    "proof": 3.54998321533203E+01
+  }
+}

@@ -1,0 +1,23 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U sqrt%b		sqrt.adb		1c124b68 NE OO SU
+
+D sqrt.adb		20190429184646 1c124b68 sqrt%b
+D system.ads		20190426161703 4635ec04 system%s
+X 1 sqrt.adb
+1V10*Sqrt{float} 1b10 1>16 1>27 6r20 41t4
+1f16 X{float} 4r12 4r25 6r16 6r41 19r22 21r7 23r16 25r15 29r15 29r46 32r25
+1f27 Tolerance{float} 5r3 5r39 6r45 29r34
+17f4 Left{float} 22m7 25m7 30r17 30r33 35m10
+18f4 Right{float} 23m7 26m7 30r25 33m10
+19f4 Approx{float} 29r19 30m7 32r10 33r19 35r18 40r8
+
