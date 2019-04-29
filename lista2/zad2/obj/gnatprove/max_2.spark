@@ -1,0 +1,41 @@
+{
+  "spark": [
+    {
+      "name": "Max_2",
+      "sloc": [
+        {
+          "file": "max_2.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Max_2.Find_Max_2",
+      "sloc": [
+        {
+          "file": "max_2.ads",
+          "line": 5
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 9.99999974737875E-05,
+    "globals (basic)": 2.99999992421363E-05,
+    "globals/properties (advanced)": 1.51999993249774E-04,
+    "flow analysis": 2.14999992749654E-04,
+    "codepeer results": 1.99999999495049E-06,
+    "init_why_sections": 1.18999996630009E-04,
+    "translation of standard": 2.08500004373491E-03,
+    "translation of compilation unit": 1.08499999623746E-03,
+    "proof": 9.99999997475243E-07
+  }
+}
