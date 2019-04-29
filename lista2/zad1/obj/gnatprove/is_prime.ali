@@ -1,0 +1,30 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U is_prime%b		is_prime.adb		005c21b6 OO SU
+
+D is_prime.adb		20190429082743 005c21b6 is_prime%b
+D system.ads		20190426161735 4635ec04 system%s
+X 1 is_prime.adb
+1V10*Is_Prime{boolean} 1b10 1>20 5r17 23l5 23t13
+1i20 N{positive} 4r12 6r35 6r44 8r36 8r45 13r38 15r62 16r10
+6i25 I{integer} 6r50
+8i26 I{integer} 8r51
+10i4 Factor{positive} 13r29 14r30 15r48 16r16 19m10 19r20
+11b4 Has_Factor{boolean} 13r14 17m10 22r15
+15i38 J{integer} 15r68
+
+QQ SPARKVERSION 2018 (20180524)
+GG EK_DIRECT_CALLS is_prime 0
+GG EK_GLOBALS is_prime local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

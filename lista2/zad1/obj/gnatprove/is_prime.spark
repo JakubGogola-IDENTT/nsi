@@ -1,0 +1,650 @@
+{
+  "spark": [
+    {
+      "name": "Is_Prime",
+      "sloc": [
+        {
+          "file": "is_prime.adb",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "is_prime.adb",
+      "line": 14,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "is_prime__flow__28.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 15,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "is_prime__flow__29.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 16,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "is_prime__flow__30.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 19,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "is_prime__flow__31.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 13,
+      "col": 40,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "is_prime__flow__32.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 13,
+      "col": 40,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "is_prime__flow__33.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 22,
+      "col": 4,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "is_prime__flow__34.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "is_prime.adb",
+      "line": 5,
+      "col": 13,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 33,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 97,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 5,
+      "check_col": 13,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 8,
+      "col": 47,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 8,
+      "check_col": 47,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 19,
+      "col": 27,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 19,
+      "check_col": 27,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 15,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 65,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 15,
+      "check_col": 30,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 15,
+      "col": 64,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 15,
+      "check_col": 64,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 15,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 15,
+      "check_col": 30,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 6,
+      "col": 46,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 6,
+      "check_col": 46,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 16,
+      "col": 12,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 16,
+      "check_col": 12,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 14,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 14,
+      "check_col": 30,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "is_prime.adb",
+      "line": 14,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Is_Prime",
+        "sloc": [
+          {
+            "file": "is_prime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "is_prime.adb",
+      "check_line": 14,
+      "check_col": 30,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Is_Prime",
+          "sloc": [
+            {
+              "file": "is_prime.adb",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Is_Prime",
+          "sloc": [
+            {
+              "file": "is_prime.adb",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Is_Prime",
+          "sloc": [
+            {
+              "file": "is_prime.adb",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 1.01999998150859E-04,
+    "globals (basic)": 5.09999990754295E-05,
+    "globals/properties (advanced)": 1.46000005770475E-04,
+    "flow analysis": 1.14399997983128E-03,
+    "codepeer results": 3.99999998990097E-06,
+    "init_why_sections": 1.42000004416332E-04,
+    "translation of standard": 2.25299992598593E-03,
+    "translation of compilation unit": 1.02099997457117E-03,
+    "proof": 6.39949977397919E-01
+  }
+}
