@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 9" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 14" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 21" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 27" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 12" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 27" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 17" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 20" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 33" line=" 11" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/zad3_v3.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/v3/src/bubble.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
