@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/bubble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 31" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/bubble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 16" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 15" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 18" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/bubble.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 36" line=" 15" >
+      <vfs_project>/home/jakub/Dokumenty/NSI/lista3/zad3/all/zad3_all.gpr</vfs_project>
+      <vfs_file>/home/jakub/Dokumenty/NSI/lista3/zad3/all/src/bubble.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
