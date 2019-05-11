@@ -66,6 +66,7 @@ package Railway with SPARK_Mode is
    
    procedure Open_Route (Route : in Route_Type; Success : out Boolean) 
      with
+       Pre => Correct_Signals and Correct_Segments,
        Global => (In_Out => (Segment_State, Signal_State)),
        Depends => ((Segment_State, Success) => (Route, Segment_State),
                    Signal_State => (Segment_State, Route, Signal_State)),
@@ -73,6 +74,7 @@ package Railway with SPARK_Mode is
    
    procedure Move_Train (Route : in Route_Type; Success : out Boolean)
      with
+       Pre => Correct_Signals and Correct_Segments,
        Global => (In_Out => (Segment_State, Signal_State)),
        Depends => ((Segment_State, Success) => (Route, Segment_State),
                    Signal_State => (Segment_State, Route, Signal_State)),
