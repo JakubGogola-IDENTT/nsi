@@ -27,7 +27,7 @@ package Railway with SPARK_Mode is
    
    type Singal_State_Type is
       record
-         Lef_Middle,
+         Left_Middle,
          Middle_Left,
          Middle_Right,
          Right_Middle : One_Signal_State;
@@ -39,7 +39,7 @@ package Railway with SPARK_Mode is
    function Correct_Signals return Boolean
    is
      (
-        (if Signal_State.Lef_Middle = Green then
+        (if Signal_State.Left_Middle = Green then
               Segment_State.Left = Occupied_Moving_Right and
                 Segment_State.Middle = Reserverd_Moving_From_Left) and then
         (if Signal_State.Middle_Left = Green then
@@ -58,7 +58,7 @@ package Railway with SPARK_Mode is
         (if Segment_State.Left /= Reserverd_Moving_From_Right then
               Signal_State.Middle_Left = Red) and
         (if Segment_State.Middle /= Reserverd_Moving_From_Left then
-              Signal_State.Lef_Middle = Red) and
+              Signal_State.Left_Middle = Red) and
         (if Segment_State.Middle /= Reserverd_Moving_From_Right then
               Signal_State.Right_Middle = Red) and
         (if Segment_State.Right /= Reserverd_Moving_From_Left then
