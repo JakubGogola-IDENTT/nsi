@@ -52,6 +52,7 @@ package body Railway is
         Segment_State.Left = Occupied_Standing then
          Segment_State.Left := Occupied_Moving_Left;
          Success := True;
+         --- [     ||     |---->|<----||     ]
       else
          Success := False;
       end if;   
